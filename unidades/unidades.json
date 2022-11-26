@@ -1,0 +1,523 @@
+[{
+        "id": 6638,
+        "name2": "C-0012",
+        "license_plate": "94AA5V",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6640,
+        "name2": "C-0014",
+        "license_plate": "21AA6V",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6641,
+        "name2": "C-0015",
+        "license_plate": "57AR7E",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6642,
+        "name2": "C-0016",
+        "license_plate": "22AA6V",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6643,
+        "name2": "C-0017",
+        "license_plate": "23AA6V",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6644,
+        "name2": "C-0020",
+        "license_plate": "66AM4Y",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6645,
+        "name2": "C-0021",
+        "license_plate": "77AC7T",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6879,
+        "name2": "C-0022",
+        "license_plate": "11AM1D",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6880,
+        "name2": "C-0023",
+        "license_plate": "10AM1D",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6881,
+        "name2": "C-0024",
+        "license_plate": "34AM4Y",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6882,
+        "name2": "C-0025",
+        "license_plate": "08AM1D",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6883,
+        "name2": "C-0026",
+        "license_plate": "33AM4Y",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6884,
+        "name2": "C-0027",
+        "license_plate": "06AM1D",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6895,
+        "name2": "C-0028",
+        "license_plate": "36AM2Y",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6896,
+        "name2": "C-0029",
+        "license_plate": "35AM2Y",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6897,
+        "name2": "C-0030",
+        "license_plate": "34AM2Y",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6898,
+        "name2": "C-0031",
+        "license_plate": "33AM2Y",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6900,
+        "name2": "C-0032",
+        "license_plate": "51AM1D",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6901,
+        "name2": "C-0033",
+        "license_plate": "77AM1D",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6902,
+        "name2": "C-0034",
+        "license_plate": "78AM1D",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6910,
+        "name2": "C-0035",
+        "license_plate": "98AN3R",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6911,
+        "name2": "C-0036",
+        "license_plate": "99AN3R",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6646,
+        "name2": "C-0040",
+        "license_plate": "842AT4",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6647,
+        "name2": "C-0041",
+        "license_plate": "844AT4",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6650,
+        "name2": "C-0045",
+        "license_plate": "890DY1",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6653,
+        "name2": "C-0048",
+        "license_plate": "887DY1",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6655,
+        "name2": "C-0052",
+        "license_plate": "75AM4Y",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6656,
+        "name2": "C-0053",
+        "license_plate": "72AD9Z",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6657,
+        "name2": "C-0054",
+        "license_plate": "73AD9Z",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6658,
+        "name2": "C-0055",
+        "license_plate": "74AD9Z",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6659,
+        "name2": "C-0056",
+        "license_plate": "87AK2A",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6660,
+        "name2": "C-0057",
+        "license_plate": "83AK2A",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6661,
+        "name2": "C-0058",
+        "license_plate": "86AK2A",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6662,
+        "name2": "C-0059",
+        "license_plate": "88AK2A",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6663,
+        "name2": "C-0060",
+        "license_plate": "84AK2A",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6664,
+        "name2": "C-0061",
+        "license_plate": "85AK2A",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6855,
+        "name2": "C-0062",
+        "license_plate": "35AM4Y",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6859,
+        "name2": "C-0063",
+        "license_plate": "43AK4M",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6665,
+        "name2": "C-0064",
+        "license_plate": "259AR2",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6666,
+        "name2": "C-0069",
+        "license_plate": "112AK4",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6667,
+        "name2": "C-0070",
+        "license_plate": "207DX8",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6668,
+        "name2": "C-0071",
+        "license_plate": "789DX3",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6669,
+        "name2": "C-0075",
+        "license_plate": "815AK3",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6670,
+        "name2": "C-0080",
+        "license_plate": "228DX4",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6671,
+        "name2": "C-0081",
+        "license_plate": "10AH6D",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6672,
+        "name2": "C-0082",
+        "license_plate": "12AH6D",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6673,
+        "name2": "C-0083",
+        "license_plate": "13AH6D",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6674,
+        "name2": "C-0084",
+        "license_plate": "11AH6D",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6680,
+        "name2": "C-0100",
+        "license_plate": "13AG8H",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6681,
+        "name2": "C-0101",
+        "license_plate": "38AM2Y",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6682,
+        "name2": "C-0102",
+        "license_plate": "42AS8S",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6683,
+        "name2": "C-0103",
+        "license_plate": "37AM2Y",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7005,
+        "name2": "C-0104",
+        "license_plate": "744FF3",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7006,
+        "name2": "C-0105",
+        "license_plate": "95FA5A",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7007,
+        "name2": "C-0106",
+        "license_plate": "98FA5A",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7008,
+        "name2": "C-0107",
+        "license_plate": "25FA8B",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7009,
+        "name2": "C-0108",
+        "license_plate": "748FF3",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7010,
+        "name2": "C-0109",
+        "license_plate": "93FA5A",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7011,
+        "name2": "C-0110",
+        "license_plate": "99FA5A",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7012,
+        "name2": "C-0111",
+        "license_plate": "36AR9F",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7013,
+        "name2": "C-0112",
+        "license_plate": "37AR9F",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7014,
+        "name2": "C-0113",
+        "license_plate": "39AR9F",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7015,
+        "name2": "C-0114",
+        "license_plate": "38AR9F",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7021,
+        "name2": "C-0115",
+        "license_plate": "85AS2B",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7038,
+        "name2": "C-0116",
+        "license_plate": "13AS8S",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7039,
+        "name2": "C-0117",
+        "license_plate": "12AS8S",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7040,
+        "name2": "C-0118",
+        "license_plate": "11AS8S",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7043,
+        "name2": "C-0119",
+        "license_plate": "25AS3T",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7050,
+        "name2": "C-0120",
+        "license_plate": "16AX5A",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7051,
+        "name2": "C-0121",
+        "license_plate": "17AX5A",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7052,
+        "name2": "C-0122",
+        "license_plate": "15AX5A",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6688,
+        "name2": "CR-001",
+        "license_plate": "34AL1G",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6894,
+        "name2": "CR-002",
+        "license_plate": "850FE9",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6718,
+        "name2": "GENERAL01",
+        "license_plate": "S\/P",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7028,
+        "name2": "GENERAL (GARRAFA)",
+        "license_plate": "S\/P",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6940,
+        "name2": "MARCH",
+        "license_plate": "YRW381A",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6877,
+        "name2": "PERM\/C-01",
+        "license_plate": false,
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6906,
+        "name2": "PERM\/C-02",
+        "license_plate": false,
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6932,
+        "name2": "PERM\/C-03",
+        "license_plate": false,
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6960,
+        "name2": "PERM\/C-04",
+        "license_plate": "SP",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7059,
+        "name2": "PL-062",
+        "license_plate": false,
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7026,
+        "name2": "SERVI\/B-002",
+        "license_plate": "N\/A",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7023,
+        "name2": "SERVI\/C-001",
+        "license_plate": "86AS2B",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6829,
+        "name2": "SERVI\/L-009",
+        "license_plate": "84AC7M",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 6854,
+        "name2": "U-011",
+        "license_plate": "XJ6746A",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7030,
+        "name2": "U-016",
+        "license_plate": "YUX276A",
+        "fleet_type": "tractor"
+    },
+    {
+        "id": 7042,
+        "name2": "U-017",
+        "license_plate": "FVX225A",
+        "fleet_type": "tractor"
+    }
+]
