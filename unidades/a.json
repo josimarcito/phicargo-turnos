@@ -1,0 +1,632 @@
+{
+    "name": {
+        "type": "char",
+        "string": "Name"
+    },
+    "active": {
+        "type": "boolean",
+        "string": "Active"
+    },
+    "company_id": {
+        "type": "many2one",
+        "string": "Company"
+    },
+    "license_plate": {
+        "type": "char",
+        "help": "License plate number of the vehicle (i = plate number for a car)",
+        "string": "License Plate"
+    },
+    "vin_sn": {
+        "type": "char",
+        "help": "Unique number written on the vehicle motor (VIN\/SN number)",
+        "string": "Chassis Number"
+    },
+    "driver_id": {
+        "type": "many2one",
+        "help": "Driver of the vehicle",
+        "string": "Driver"
+    },
+    "model_id": {
+        "type": "many2one",
+        "help": "Model of the vehicle",
+        "string": "Model"
+    },
+    "brand_id": {
+        "type": "many2one",
+        "help": "Make of the vehicle",
+        "string": "Brand"
+    },
+    "log_drivers": {
+        "type": "one2many",
+        "string": "Assignation Logs"
+    },
+    "log_fuel": {
+        "type": "one2many",
+        "string": "Fuel Logs"
+    },
+    "log_services": {
+        "type": "one2many",
+        "string": "Services Logs"
+    },
+    "log_contracts": {
+        "type": "one2many",
+        "string": "Contracts"
+    },
+    "cost_count": {
+        "type": "integer",
+        "string": "Costs"
+    },
+    "contract_count": {
+        "type": "integer",
+        "string": "Contract Count"
+    },
+    "service_count": {
+        "type": "integer",
+        "string": "Services"
+    },
+    "fuel_logs_count": {
+        "type": "integer",
+        "string": "Fuel Log Count"
+    },
+    "odometer_count": {
+        "type": "integer",
+        "string": "Odometer"
+    },
+    "acquisition_date": {
+        "type": "date",
+        "help": "Date when the vehicle has been immatriculated",
+        "string": "Immatriculation Date"
+    },
+    "first_contract_date": {
+        "type": "date",
+        "string": "First Contract Date"
+    },
+    "color": {
+        "type": "char",
+        "help": "Color of the vehicle",
+        "string": "Color"
+    },
+    "state_id": {
+        "type": "many2one",
+        "help": "Current state of the vehicle",
+        "string": "State"
+    },
+    "location": {
+        "type": "char",
+        "help": "Location of the vehicle (garage, ...)",
+        "string": "Location"
+    },
+    "seats": {
+        "type": "integer",
+        "help": "Number of seats of the vehicle",
+        "string": "Seats Number"
+    },
+    "model_year": {
+        "type": "char",
+        "help": "Year of the model",
+        "string": "Model Year"
+    },
+    "doors": {
+        "type": "integer",
+        "help": "Number of doors of the vehicle",
+        "string": "Doors Number"
+    },
+    "tag_ids": {
+        "type": "many2many",
+        "string": "Tags"
+    },
+    "odometer": {
+        "type": "float",
+        "help": "Odometer measure of the vehicle at the moment of this log",
+        "string": "Last Odometer"
+    },
+    "odometer_unit": {
+        "type": "selection",
+        "help": "Unit of the odometer ",
+        "string": "Odometer Unit"
+    },
+    "transmission": {
+        "type": "selection",
+        "help": "Transmission Used by the vehicle",
+        "string": "Transmission"
+    },
+    "fuel_type": {
+        "type": "selection",
+        "help": "Fuel Used by the vehicle",
+        "string": "Fuel Type"
+    },
+    "horsepower": {
+        "type": "integer",
+        "string": "Horsepower"
+    },
+    "horsepower_tax": {
+        "type": "float",
+        "string": "Horsepower Taxation"
+    },
+    "power": {
+        "type": "integer",
+        "help": "Power in kW of the vehicle",
+        "string": "Power"
+    },
+    "co2": {
+        "type": "float",
+        "help": "CO2 emissions of the vehicle",
+        "string": "CO2 Emissions"
+    },
+    "image": {
+        "type": "binary",
+        "help": "This field holds the image used as logo for the brand, limited to 1024x1024px.",
+        "string": "Logo"
+    },
+    "image_medium": {
+        "type": "binary",
+        "help": "Medium-sized logo of the brand. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views.",
+        "string": "Logo (medium)"
+    },
+    "image_small": {
+        "type": "binary",
+        "help": "Small-sized logo of the brand. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required.",
+        "string": "Logo (small)"
+    },
+    "contract_renewal_due_soon": {
+        "type": "boolean",
+        "string": "Has Contracts to renew"
+    },
+    "contract_renewal_overdue": {
+        "type": "boolean",
+        "string": "Has Contracts Overdue"
+    },
+    "contract_renewal_name": {
+        "type": "text",
+        "string": "Name of contract to renew soon"
+    },
+    "contract_renewal_total": {
+        "type": "text",
+        "string": "Total of contracts due or overdue minus one"
+    },
+    "car_value": {
+        "type": "float",
+        "help": "Value of the bought vehicle",
+        "string": "Catalog Value (VAT Incl.)"
+    },
+    "residual_value": {
+        "type": "float",
+        "string": "Residual Value"
+    },
+    "name2": {
+        "type": "char",
+        "string": "Vehicle"
+    },
+    "notes": {
+        "type": "text",
+        "string": "Notes"
+    },
+    "employee_id": {
+        "type": "many2one",
+        "help": "This is used in TMS Module...",
+        "string": "Driver (Employee)"
+    },
+    "electronic_toll_id": {
+        "type": "char",
+        "string": "Electronic Toll ID"
+    },
+    "toll_supplier_id": {
+        "type": "many2one",
+        "string": "Electronic Toll Supplier"
+    },
+    "tires_number": {
+        "type": "integer",
+        "string": "# Tires"
+    },
+    "tires_extra": {
+        "type": "integer",
+        "string": "# Extra Tires"
+    },
+    "avg_odometer_uom_per_day": {
+        "type": "float",
+        "string": "Average per day"
+    },
+    "active_odometer_id": {
+        "type": "many2one",
+        "string": "Active Odometer"
+    },
+    "current_odometer_read": {
+        "type": "float",
+        "help": "Ending counter from device",
+        "string": "Last Odometer Read"
+    },
+    "odometer_uom": {
+        "type": "selection",
+        "help": "Odometer UoM",
+        "string": "Odometer UoM"
+    },
+    "vehicle_type_id": {
+        "type": "many2one",
+        "string": "Vehicle Type"
+    },
+    "vehicle_motor_id": {
+        "type": "many2one",
+        "string": "Motor"
+    },
+    "serial_number": {
+        "type": "char",
+        "string": "Serial Number"
+    },
+    "day_no_circulation": {
+        "type": "selection",
+        "string": "Day no Circulation"
+    },
+    "registration": {
+        "type": "char",
+        "string": "Registration"
+    },
+    "gps_supplier_id": {
+        "type": "many2one",
+        "string": "GPS Supplier"
+    },
+    "gps_id": {
+        "type": "char",
+        "string": "GPS Id"
+    },
+    "latitude": {
+        "type": "float",
+        "help": "GPS Latitude",
+        "string": "Lat"
+    },
+    "longitude": {
+        "type": "float",
+        "help": "GPS Longitude",
+        "string": "Lng"
+    },
+    "last_position": {
+        "type": "char",
+        "string": "Last Position"
+    },
+    "last_position_update": {
+        "type": "datetime",
+        "string": "Last GPS Update"
+    },
+    "vehicle_validity_ids": {
+        "type": "one2many",
+        "string": "Expiry Extra Data"
+    },
+    "vehicle_photo_ids": {
+        "type": "one2many",
+        "string": "Photos"
+    },
+    "photos_count": {
+        "type": "integer",
+        "string": "Images"
+    },
+    "vehicle_active_history_ids": {
+        "type": "one2many",
+        "string": "Active\/Inactive History"
+    },
+    "vehicle_red_tape_ids": {
+        "type": "one2many",
+        "string": "Unit Red Tapes"
+    },
+    "insurance_policy": {
+        "type": "char",
+        "help": "Vehicle Insurance Policy",
+        "string": "Insurance Policy"
+    },
+    "insurance_policy_notes": {
+        "type": "text",
+        "string": "Insurance Policy Notes"
+    },
+    "insurance_policy_expiration": {
+        "type": "date",
+        "string": "Insurance Policy Expiration"
+    },
+    "insurance_supplier_id": {
+        "type": "many2one",
+        "string": "Insurance Supplier"
+    },
+    "insurance_policy_days_to_expire": {
+        "type": "integer",
+        "string": "Days to expire"
+    },
+    "activity_ids": {
+        "type": "one2many",
+        "string": "Activities"
+    },
+    "activity_state": {
+        "type": "selection",
+        "help": "Status based on activities\nOverdue: Due date is already passed\nToday: Activity date is today\nPlanned: Future activities.",
+        "string": "Activity State"
+    },
+    "activity_date_deadline": {
+        "type": "date",
+        "string": "Next Activity Deadline"
+    },
+    "message_is_follower": {
+        "type": "boolean",
+        "string": "Is Follower"
+    },
+    "message_follower_ids": {
+        "type": "one2many",
+        "string": "Followers"
+    },
+    "message_partner_ids": {
+        "type": "many2many",
+        "string": "Followers (Partners)"
+    },
+    "message_channel_ids": {
+        "type": "many2many",
+        "string": "Followers (Channels)"
+    },
+    "message_ids": {
+        "type": "one2many",
+        "string": "Messages"
+    },
+    "message_unread": {
+        "type": "boolean",
+        "help": "If checked new messages require your attention.",
+        "string": "Unread Messages"
+    },
+    "message_unread_counter": {
+        "type": "integer",
+        "help": "Number of unread messages",
+        "string": "Unread Messages Counter"
+    },
+    "message_needaction": {
+        "type": "boolean",
+        "help": "If checked, new messages require your attention.",
+        "string": "Action Needed"
+    },
+    "message_needaction_counter": {
+        "type": "integer",
+        "help": "Number of messages which requires an action",
+        "string": "Number of Actions"
+    },
+    "message_has_error": {
+        "type": "boolean",
+        "help": "If checked, some messages have a delivery error.",
+        "string": "Message Delivery error"
+    },
+    "message_has_error_counter": {
+        "type": "integer",
+        "help": "Number of messages with delivery error",
+        "string": "Number of error"
+    },
+    "message_attachment_count": {
+        "type": "integer",
+        "string": "Attachment Count"
+    },
+    "message_main_attachment_id": {
+        "type": "many2one",
+        "string": "Main Attachment"
+    },
+    "website_message_ids": {
+        "type": "one2many",
+        "help": "Website communication history",
+        "string": "Website Messages"
+    },
+    "store_id": {
+        "type": "many2one",
+        "string": "Store"
+    },
+    "gps_last_position_update": {
+        "type": "datetime",
+        "string": "GPS Date Position"
+    },
+    "gps_last_position": {
+        "type": "text",
+        "string": "GPS Position"
+    },
+    "gps_last_position_pi": {
+        "type": "text",
+        "string": "GPS Position PI"
+    },
+    "fleet_type": {
+        "type": "selection",
+        "string": "Unit Fleet Type"
+    },
+    "supplier_vehicle": {
+        "type": "boolean",
+        "string": "Supplier Unit"
+    },
+    "supplier_id": {
+        "type": "many2one",
+        "string": "Supplier"
+    },
+    "travel_ids": {
+        "type": "one2many",
+        "string": "Travels"
+    },
+    "event_ids": {
+        "type": "one2many",
+        "string": "GPS Events"
+    },
+    "mro_program_id": {
+        "type": "many2one",
+        "string": "Maintenance Program"
+    },
+    "mro_cycle_ids": {
+        "type": "one2many",
+        "string": "MRP Program Lines"
+    },
+    "last_preventive_service": {
+        "type": "many2one",
+        "string": "Last Maintenance Service"
+    },
+    "main_odometer_last_service": {
+        "type": "float",
+        "string": "Last Serv. Odometer"
+    },
+    "odometer_last_service": {
+        "type": "float",
+        "string": "Last Serv. Active Odometer"
+    },
+    "date_last_service": {
+        "type": "datetime",
+        "string": "Date Last Serv."
+    },
+    "sequence_last_service": {
+        "type": "integer",
+        "string": "Program Seq. Last Serv."
+    },
+    "cycle_last_service": {
+        "type": "many2one",
+        "string": "Cycle Last Serv."
+    },
+    "main_odometer_next_service": {
+        "type": "float",
+        "string": "Odometer Next Serv."
+    },
+    "odometer_next_service": {
+        "type": "float",
+        "string": "Active Odometer Next Serv."
+    },
+    "next_preventive_service": {
+        "type": "many2one",
+        "string": "Next Maintenance Service"
+    },
+    "date_next_service": {
+        "type": "datetime",
+        "string": "Date Next Serv."
+    },
+    "sequence_next_service": {
+        "type": "integer",
+        "string": "Cycle Seq. Next Serv."
+    },
+    "cycle_next_service": {
+        "type": "many2one",
+        "string": "Next Cycle Service"
+    },
+    "tires_position_ids": {
+        "type": "one2many",
+        "string": "Tires Positions"
+    },
+    "tires_position_model_id": {
+        "type": "many2one",
+        "string": "Tires Positions Model"
+    },
+    "tires_image": {
+        "type": "binary",
+        "string": "Vehicle Tires Position Image"
+    },
+    "last_checkup_id": {
+        "type": "many2one",
+        "string": "Last Revision"
+    },
+    "last_checkup_date": {
+        "type": "datetime",
+        "string": "Last Revision Date"
+    },
+    "last_checkup_notes": {
+        "type": "text",
+        "string": "Last Revision Notes"
+    },
+    "tire_checkup_delayed": {
+        "type": "boolean",
+        "string": "Tire Checkup Delayed"
+    },
+    "subtype_trailer_id": {
+        "type": "many2one",
+        "help": "Atributo: SubTipoRem",
+        "string": "Subtipo Remolque"
+    },
+    "type_stc_permit_id": {
+        "type": "many2one",
+        "string": "Permiso STC"
+    },
+    "transport_part_id": {
+        "type": "many2one",
+        "string": "Tipo Parte Transporte"
+    },
+    "waybill_propietario_id": {
+        "type": "many2one",
+        "string": "Propietario"
+    },
+    "waybill_arrendador_id": {
+        "type": "many2one",
+        "string": "Arrendador"
+    },
+    "type_stc_permit_number": {
+        "type": "char",
+        "help": "Atributo: NumPermisoSCT",
+        "string": "Numero Permiso STC"
+    },
+    "activity_user_id": {
+        "type": "many2one",
+        "string": "Responsible User"
+    },
+    "activity_type_id": {
+        "type": "many2one",
+        "string": "Next Activity Type"
+    },
+    "activity_summary": {
+        "type": "char",
+        "string": "Next Activity Summary"
+    },
+    "id": {
+        "type": "integer",
+        "string": "ID"
+    },
+    "display_name": {
+        "type": "char",
+        "string": "Display Name"
+    },
+    "create_uid": {
+        "type": "many2one",
+        "string": "Created by"
+    },
+    "create_date": {
+        "type": "datetime",
+        "string": "Created on"
+    },
+    "write_uid": {
+        "type": "many2one",
+        "string": "Last Updated by"
+    },
+    "write_date": {
+        "type": "datetime",
+        "string": "Last Updated on"
+    },
+    "__last_update": {
+        "type": "datetime",
+        "string": "Last Modified on"
+    },
+    "x_inciso": {
+        "type": "text",
+        "string": "Inciso"
+    },
+    "x_endoso": {
+        "type": "text",
+        "string": "Endoso"
+    },
+    "x_beneficiario_prferente": {
+        "type": "text",
+        "string": "Beneficiario Preferente"
+    },
+    "x_poliza_inicio": {
+        "type": "date",
+        "string": "Inicio de P\u00f3liza"
+    },
+    "x_date_end": {
+        "type": "date",
+        "string": "Fecha Pago Final"
+    },
+    "x_forma_pago": {
+        "type": "selection",
+        "string": "Forma de Pago"
+    },
+    "x_date_start": {
+        "type": "date",
+        "string": "Fecha Pago Inicial"
+    },
+    "x_serial_motor": {
+        "type": "char",
+        "string": "N\u00b0 Serie Motor"
+    },
+    "x_modality": {
+        "type": "char",
+        "string": "Modalidad"
+    },
+    "x_motogenerador": {
+        "type": "boolean",
+        "string": "Motogenerador"
+    }
+}
