@@ -13,7 +13,7 @@
 
                     <li class="sidebar-item active">
                         <a class="sidebar-link" href="../turnos/index.php">
-                            <i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Cola</span>
+                            <i class="align-middle" data-feather="list"></i> <span class="align-middle">Turnos</span>
                         </a>
                     </li>
 
@@ -23,13 +23,13 @@
 
                     <li class="sidebar-item">
                         <a class="sidebar-link" href="../usuario/index.php">
-                            <i class="align-middle" data-feather="square"></i> <span class="align-middle">Cuentas de Usuario</span>
+                            <i class="align-middle" data-feather="users"></i> <span class="align-middle">Cuentas de Usuario</span>
                         </a>
                     </li>     
                     
                     <li class="sidebar-item">
                         <a class="sidebar-link" href="../usuario/index.php">
-                            <i class="align-middle" data-feather="square"></i> <span class="align-middle">Conexión Odoo</span>
+                            <i class="align-middle" data-feather="sliders"></i> <span class="align-middle">Conexión Odoo</span>
                         </a>
                     </li>    
                 </ul>

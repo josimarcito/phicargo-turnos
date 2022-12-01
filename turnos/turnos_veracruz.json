@@ -1,1 +1,47 @@
-{"turnos_veracruz":[{"ID_TURNO":"188","TURNO":"1","ID_OPERADOR":"536","ID_UNIDAD":"6638","ECO":"C-0012","NOMBRE_OPERADOR":"BLANCO MOLINA RUBEN","FECHA_LLEGADA":"2022-12-01","HORA_LLEGADA":"16:56:05","COMENTARIOS":""}]}
+{
+    "turnos_veracruz": [{
+            "ID_TURNO": "173",
+            "TURNO": "1",
+            "ID_OPERADOR": "620",
+            "ID_UNIDAD": "6641",
+            "ECO": "C-0015",
+            "NOMBRE_OPERADOR": "ACEVEDO AGUILAR OSCAR",
+            "FECHA_LLEGADA": "2022-12-01",
+            "HORA_LLEGADA": "12:46:00",
+            "COMENTARIOS": ""
+        },
+        {
+            "ID_TURNO": "174",
+            "TURNO": "1",
+            "ID_OPERADOR": "630",
+            "ID_UNIDAD": "6880",
+            "ECO": "C-0023",
+            "NOMBRE_OPERADOR": "AGUILAR OLIVARES ANDRES",
+            "FECHA_LLEGADA": "2022-12-01",
+            "HORA_LLEGADA": "12:46:00",
+            "COMENTARIOS": ""
+        },
+        {
+            "ID_TURNO": "175",
+            "TURNO": "1",
+            "ID_OPERADOR": "541",
+            "ID_UNIDAD": "6910",
+            "ECO": "C-0035",
+            "NOMBRE_OPERADOR": "GUEVARA ROMAN GILBERTO",
+            "FECHA_LLEGADA": "2022-12-01",
+            "HORA_LLEGADA": "13:55:00",
+            "COMENTARIOS": ""
+        },
+        {
+            "ID_TURNO": "176",
+            "TURNO": "1",
+            "ID_OPERADOR": "424",
+            "ID_UNIDAD": "6900",
+            "ECO": "C-0032",
+            "NOMBRE_OPERADOR": "ARRIAGA OLVERA MIGUEL ALBERTO",
+            "FECHA_LLEGADA": "2022-12-01",
+            "HORA_LLEGADA": "13:57:00",
+            "COMENTARIOS": ""
+        }
+    ]
+}

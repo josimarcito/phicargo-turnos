@@ -1,13 +1,3 @@
-<?php
-require_once('../includes/header.php');
-require_once('../includes/head.php');
-require_once('../mysql/conexion.php');
-
-$cn = conectar();
-$sqlSelect = "SELECT ID_TURNO, TURNO, ID_OPERADOR, ECO, NOMBRE_OPERADOR, FECHA_LLEGADA, HORA_LLEGADA, COMENTARIOS FROM TURNOS LEFT JOIN OPERADORES ON TURNOS.ID_OPERADOR = OPERADORES.ID ORDER BY TURNO ASC";
-$resultSet = $cn->query($sqlSelect);
-
-?>
 <div class="main">
     <nav class="navbar navbar-expand navbar-light navbar-bg">
         <a class="sidebar-toggle js-sidebar-toggle">
@@ -179,6 +169,7 @@ $resultSet = $cn->query($sqlSelect);
                 </div>
 
                 <div class="col-auto ms-auto text-end mt-n1">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#IngresarOp" onclick="fecha_hora()">Ingresar a la cola</button>
                     <a href="#" class="btn btn-primary">Publicar</a>
                 </div>
             </div>
@@ -187,44 +178,10 @@ $resultSet = $cn->query($sqlSelect);
                 <div class="col-xl-8 col-xxl-12">
                     <div class="card flex-fill w-100">
                         <div class="card-header">
-                            <h5 class="card-title mb-0">Listado de Cuentas Activas</h5>
+                            <h5 class="card-title mb-0"></h5>
                         </div>
                         <div class="card-body py-0">
-                            <table class="table table-striped table-hover table-responsive">
-                                <thead>
-                                    <tr>
-                                        <th></th>
-                                        <th>TURNO</th>
-                                        <th>ECO</th>
-                                        <th>OPERADOR</th>
-                                        <th>FECHA LLEGADA</th>
-                                        <th>HORA LLEGADA</th>
-                                        <th>COMENTARIOS</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <?php while ($row = $resultSet->fetch_assoc()) {
-                                        $userData['turnos_veracruz'][] = $row; ?>
-                                        <tr>
-                                            <td>
-                                                <img src="../img/usuario.png" width="28" height="28" class="rounded-circle me-2" alt="Avatar">
-                                            </td>
-                                            <td><?php echo $row['TURNO'] ?></td>
-                                            <td><?php echo $row['ECO'] ?></td>
-                                            <td class="card-title"><?php echo $row['NOMBRE_OPERADOR'] ?></td>
-                                            <td><?php echo $row['FECHA_LLEGADA'] ?></td>
-                                            <td><?php echo $row['HORA_LLEGADA'] ?></td>
-                                            <td><?php echo $row['COMENTARIOS'] ?></td>
-                                        </tr>
-
-
-                                    <?php }
-
-                                    $json = json_encode($userData);
-                                    $bytes = file_put_contents("turnos_veracruz.json", $json); ?>
-
-                                </tbody>
-                            </table>
+                            <div id="tabla"></div>
                         </div>
                     </div>
                 </div>
@@ -232,38 +189,9 @@ $resultSet = $cn->query($sqlSelect);
         </div>
     </main>
 
-    <footer class="footer">
-        <div class="container-fluid">
-            <div class="row text-muted">
-                <div class="col-6 text-start">
-                    <p class="mb-0">
-                        <a class="text-muted" href="https://adminkit.io/" target="_blank"><strong>AdminKit</strong></a> - <a class="text-muted" href="https://adminkit.io/" target="_blank"><strong>Bootstrap Admin Template</strong></a> &copy;
-                    </p>
-                </div>
-                <div class="col-6 text-end">
-                    <ul class="list-inline">
-                        <li class="list-inline-item">
-                            <a class="text-muted" href="https://adminkit.io/" target="_blank">Support</a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="text-muted" href="https://adminkit.io/" target="_blank">Help Center</a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="text-muted" href="https://adminkit.io/" target="_blank">Privacy</a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a class="text-muted" href="https://adminkit.io/" target="_blank">Terms</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
-</div>
-</div>
+    <script src="../js/app.js"></script>
+    <script src="../js/jquery-3.6.1.min.js"></script>
 
-<script src="../js/app.js"></script>
+    </body>
 
-</body>
-
-</html>
+    </html>

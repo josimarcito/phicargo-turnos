@@ -4,7 +4,7 @@ require_once('../includes/head.php');
 require_once('../mysql/conexion.php');
 
 $cn = conectar();
-$sqlSelect = "SELECT ID, NOMBRE, PASSWOORD FROM OPERADORES";
+$sqlSelect = "SELECT ID, NOMBRE_OPERADOR, PASSWOORD FROM OPERADORES";
 $resultSet = $cn->query($sqlSelect);
 
 ?>
@@ -198,7 +198,7 @@ $resultSet = $cn->query($sqlSelect);
                                                 <img src="../img/usuario.png" width="28" height="28" class="rounded-circle me-2" alt="Avatar">
                                             </td>
                                             <td class="card-title"><?php echo $row['ID'] ?></td>
-                                            <td class="card-title"><?php echo $row['NOMBRE'] ?></td>
+                                            <td class="card-title"><?php echo $row['NOMBRE_OPERADOR'] ?></td>
                                             <td><?php echo $row['PASSWOORD'] ?></td>
                                         </tr>
                                     <?php } ?>
