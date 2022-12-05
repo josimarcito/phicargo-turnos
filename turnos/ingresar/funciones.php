@@ -87,5 +87,25 @@
 
             });
         });
+
+        $('#operador').on("change", function() {
+            var operadorcomprobar = $('#operador').val();
+            var dataString = 'operador=' + operadorcomprobar;
+            $.ajax({
+                type: "GET",
+                data: dataString,
+                url: "ingresar/validaciones/validar_operador.php",
+                dataType: "JSON",
+                success: function(datos) {
+                    if (datos.success == 1) {
+                        document.getElementById('BtnIngresarOpCola').disabled = true;
+                        notyf.error('La operador ya esta en cola.');
+                    } else {
+                        document.getElementById('BtnIngresarOpCola').disabled = false;
+                    }
+                }
+
+            });
+        });
     });
 </script>
