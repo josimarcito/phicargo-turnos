@@ -1,1 +1,83 @@
-[{"id":36865,"date":"2022-08-24 20:16:42","user_id":[110,"CRUZ GREGORIO DANIELA NAYELI"],"name":"V\/MEX-05203","vehicle_id":[6641,"C-0015 [57AR7E]"],"trailer1_id":[6784,"PCE-018 [31UB8H]"],"dolly_id":false,"route_id":[10312,"MEXICO, DF - MANZANILLO, COL"],"partner_id":[108711,"TECNO SERVICIO MULTIMODAL SA DE CV"],"date_start_real":"2022-08-24 20:16:42"},{"id":36825,"date":"2022-08-23 20:10:33","user_id":[115,"RODRIGUEZ GUERRERO CECILIA"],"name":"V\/MZN-05101","vehicle_id":[6641,"C-0015 [57AR7E]"],"trailer1_id":[6784,"PCE-018 [31UB8H]"],"dolly_id":false,"route_id":[10339,"MANZANILLO, COL - QUERETARO, QUE"],"partner_id":[106673,"CONVAMEX SA DE CV"],"date_start_real":"2022-08-23 20:10:33"},{"id":36733,"date":"2022-08-20 15:42:36","user_id":[115,"RODRIGUEZ GUERRERO CECILIA"],"name":"V\/MZN-05083","vehicle_id":[6641,"C-0015 [57AR7E]"],"trailer1_id":[6784,"PCE-018 [31UB8H]"],"dolly_id":false,"route_id":[10332,"MANZANILLO, COL - MEXICO, DF"],"partner_id":[106949,"EUROPARTNERS MEXICO SA DE CV"],"date_start_real":"2022-08-20 15:42:36"}]
+[
+    {
+        "id": 36865,
+        "date": "2022-08-24 20:16:42",
+        "user_id": [
+            110,
+            "CRUZ GREGORIO DANIELA NAYELI"
+        ],
+        "name": "V\/MEX-05203",
+        "vehicle_id": [
+            6641,
+            "C-0015 [57AR7E]"
+        ],
+        "trailer1_id": [
+            6784,
+            "PCE-018 [31UB8H]"
+        ],
+        "dolly_id": false,
+        "route_id": [
+            10312,
+            "MEXICO, DF - MANZANILLO, COL"
+        ],
+        "partner_id": [
+            108711,
+            "TECNO SERVICIO MULTIMODAL SA DE CV"
+        ],
+        "date_start_real": "2022-08-24 20:16:42"
+    },
+    {
+        "id": 36825,
+        "date": "2022-08-23 20:10:33",
+        "user_id": [
+            115,
+            "RODRIGUEZ GUERRERO CECILIA"
+        ],
+        "name": "V\/MZN-05101",
+        "vehicle_id": [
+            6641,
+            "C-0015 [57AR7E]"
+        ],
+        "trailer1_id": [
+            6784,
+            "PCE-018 [31UB8H]"
+        ],
+        "dolly_id": false,
+        "route_id": [
+            10339,
+            "MANZANILLO, COL - QUERETARO, QUE"
+        ],
+        "partner_id": [
+            106673,
+            "CONVAMEX SA DE CV"
+        ],
+        "date_start_real": "2022-08-23 20:10:33"
+    },
+    {
+        "id": 36733,
+        "date": "2022-08-20 15:42:36",
+        "user_id": [
+            115,
+            "RODRIGUEZ GUERRERO CECILIA"
+        ],
+        "name": "V\/MZN-05083",
+        "vehicle_id": [
+            6641,
+            "C-0015 [57AR7E]"
+        ],
+        "trailer1_id": [
+            6784,
+            "PCE-018 [31UB8H]"
+        ],
+        "dolly_id": false,
+        "route_id": [
+            10332,
+            "MANZANILLO, COL - MEXICO, DF"
+        ],
+        "partner_id": [
+            106949,
+            "EUROPARTNERS MEXICO SA DE CV"
+        ],
+        "date_start_real": "2022-08-20 15:42:36"
+    }
+]

@@ -43,8 +43,8 @@ $id = $models->execute_kw(
 $json = json_encode($id);
 $bytes = file_put_contents("a.json", $json);
 
-if (file_exists('a.json')) {
-    $filename   = 'a.json';
+if (file_exists('campos.json')) {
+    $filename   = 'campos.json';
     $data       = file_get_contents($filename);
     $unidades = json_decode($data);
 } else {

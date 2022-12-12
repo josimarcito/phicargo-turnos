@@ -99,7 +99,7 @@
                             <a href="#" class="list-group-item">
                                 <div class="row g-0 align-items-center">
                                     <div class="col-2">
-                                        <img src="img/avatars/avatar-2.jpg" class="avatar img-fluid rounded-circle" alt="William Harris">
+                                        <img src="../img/usuario.png" class="avatar img-fluid rounded-circle" alt="William Harris">
                                     </div>
                                     <div class="col-10 ps-2">
                                         <div class="text-dark">William Harris</div>
@@ -144,7 +144,7 @@
                     </a>
 
                     <a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-bs-toggle="dropdown">
-                        <img src="../img/usuario.png" class="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span class="text-dark">Usuario</span>
+                        <img src="../../img/usuario.png" class="avatar img-fluid rounded me-1" alt="Charles Hall" /> <span class="text-dark">Usuario</span>
                     </a>
                     <div class="dropdown-menu dropdown-menu-end">
                         <a class="dropdown-item" href="pages-profile.html"><i class="align-middle me-1" data-feather="user"></i> Perfil</a>

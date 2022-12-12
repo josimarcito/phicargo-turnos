@@ -42,10 +42,11 @@ if (file_exists('unidades.json')) {
 
 foreach ($unidades as $unidad) {
     $sqlSelect = "SELECT PLACAS FROM UNIDADES WHERE PLACAS = '$unidad->license_plate'";
-    if ($cn->query($sqlSelect)) {
+    $sqlResult = $cn->query($sqlSelect);
+    if ($sqlResult->num_rows==1) {
     } else {
-        echo 'entro';
-        $sqlInsert = "INSERT INTO UNIDADES VALUES($unidad->id,'$unidad->name2','$unidad->license_plate')";
+
+        $sqlInsert = "INSERT INTO UNIDADES VALUES('$unidad->license_plate','$unidad->name2','DENTRO')";
         $cn->query($sqlInsert);
     }
 }
