@@ -1,0 +1,1307 @@
+{
+    "code": 100,
+    "message": "Request complete successfully",
+    "data": [
+        {
+            "assetId": 87425,
+            "vehicleNumber": "C-0014",
+            "numberPlates": "21AA6V",
+            "vehicleBrand": "FREIGHTLINER",
+            "vehicleModel": "CASCADIA",
+            "vehicleYear": "2016",
+            "vin": "3AKJGLDR2GSHH4684",
+            "engineModel": "DD13",
+            "groupName": "apigbelchez1",
+            "groups": [
+                {
+                    "groupId": 6621,
+                    "groupName": "apigbelchez1"
+                }
+            ],
+            "serialNumber": "0580037374",
+            "position": {
+                "gpsSpeed": 0.0,
+                "gpsDistance": 12184.716,
+                "driver": {
+                    "driverId": 76887,
+                    "driverName": "OP-87425",
+                    "driverLastName": "-",
+                    "driverKey": "123"
+                },
+                "status": {
+                    "diagnosticStatusId": 11235,
+                    "diagnosticStatus": "En operación",
+                    "operationalStatusId": 18586,
+                    "operationalStatus": "Disponible"
+                },
+                "events": [],
+                "ignition": true,
+                "orientation": 169.61,
+                "orientationLabel": "S",
+                "satellites": 19,
+                "temperatures": [],
+                "nearestCityReference": "A 9 Km al E de la ciudad: Veracruz, VER.",
+                "nearestCity": {
+                    "distance": 9.865782347100527,
+                    "name": "Veracruz, VER",
+                    "orientation": "E"
+                },
+                "date": "2022-12-20T22:17:23+0000",
+                "latitude": 19.21633,
+                "longitude": -96.13359,
+                "streetReference": null,
+                "altitude": 4.0,
+                "isSatelliteSource": false
+            }
+        },
+        {
+            "assetId": 88197,
+            "vehicleNumber": "C-0103",
+            "numberPlates": "37AM2Y",
+            "vehicleBrand": "INTERNATIONAL",
+            "vehicleModel": "LF687",
+            "vehicleYear": "2019",
+            "vin": "3HSDJAPT6KN683425",
+            "engineModel": "Generico",
+            "groupName": "TRANSBELCHEZ",
+            "groups": [
+                {
+                    "groupId": 5594,
+                    "groupName": "Acceso a clientes"
+                },
+                {
+                    "groupId": 6621,
+                    "groupName": "apigbelchez1"
+                }
+            ],
+            "serialNumber": "0580039892",
+            "position": {
+                "gpsSpeed": 0.0,
+                "gpsDistance": 48521.047,
+                "driver": {
+                    "driverId": 77688,
+                    "driverName": "OP-88197",
+                    "driverLastName": "-",
+                    "driverKey": "123"
+                },
+                "status": {
+                    "diagnosticStatusId": 11235,
+                    "diagnosticStatus": "En operación",
+                    "operationalStatusId": 18577,
+                    "operationalStatus": "Inicio de viaje"
+                },
+                "events": [],
+                "ignition": false,
+                "orientation": 0.0,
+                "orientationLabel": "N",
+                "satellites": 21,
+                "temperatures": [],
+                "nearestCityReference": "A 7 Km al E de la ciudad: Veracruz, VER.",
+                "nearestCity": {
+                    "distance": 7.975744751818545,
+                    "name": "Veracruz, VER",
+                    "orientation": "E"
+                },
+                "date": "2022-12-20T22:06:57+0000",
+                "latitude": 19.20992,
+                "longitude": -96.15025,
+                "streetReference": null,
+                "altitude": 3.0,
+                "isSatelliteSource": false
+            }
+        },
+        {
+            "assetId": 104132,
+            "vehicleNumber": "123",
+            "numberPlates": "44AY8J",
+            "vehicleBrand": "SCANIA",
+            "vehicleModel": "R500",
+            "vehicleYear": "2020",
+            "vin": "YS2R6X402P9306564",
+            "engineModel": "DD13",
+            "groupName": "TRANSBELCHEZ",
+            "groups": [],
+            "serialNumber": "0580044060",
+            "position": {
+                "gpsSpeed": 0.0,
+                "gpsDistance": 1.153,
+                "driver": {
+                    "driverId": 94448,
+                    "driverName": "OP-104132",
+                    "driverLastName": "-",
+                    "driverKey": "123"
+                },
+                "status": {
+                    "diagnosticStatusId": 11235,
+                    "diagnosticStatus": "En operación",
+                    "operationalStatusId": 18586,
+                    "operationalStatus": "Disponible"
+                },
+                "events": [],
+                "ignition": false,
+                "orientation": 0.0,
+                "orientationLabel": "N",
+                "satellites": 21,
+                "temperatures": [],
+                "nearestCityReference": "A 5 Km al NE de la ciudad: Veracruz, VER.",
+                "nearestCity": {
+                    "distance": 5.174774924828106,
+                    "name": "Veracruz, VER",
+                    "orientation": "NE"
+                },
+                "date": "2022-12-20T22:10:12+0000",
+                "latitude": 19.22568,
+                "longitude": -96.19601,
+                "streetReference": null,
+                "altitude": 33.0,
+                "isSatelliteSource": false
+            }
+        },
+        {
+            "assetId": 103687,
+            "vehicleNumber": "128",
+            "numberPlates": "40AY8J",
+            "vehicleBrand": "SCANIA",
+            "vehicleModel": "SR450",
+            "vehicleYear": "2020",
+            "vin": "YS2R6X406P9306308",
+            "engineModel": "DT530",
+            "groupName": "TRANSBELCHEZ",
+            "groups": [],
+            "serialNumber": "0580044046",
+            "position": {
+                "gpsSpeed": 0.0,
+                "gpsDistance": 2.132,
+                "driver": {
+                    "driverId": 93998,
+                    "driverName": "OP-103687",
+                    "driverLastName": "-",
+                    "driverKey": "123"
+                },
+                "status": {
+                    "diagnosticStatusId": 11235,
+                    "diagnosticStatus": "En operación",
+                    "operationalStatusId": 18586,
+                    "operationalStatus": "Disponible"
+                },
+                "events": [],
+                "ignition": false,
+                "orientation": 0.0,
+                "orientationLabel": "N",
+                "satellites": 20,
+                "temperatures": [],
+                "nearestCityReference": "A 5 Km al NE de la ciudad: Veracruz, VER.",
+                "nearestCity": {
+                    "distance": 5.168081549414633,
+                    "name": "Veracruz, VER",
+                    "orientation": "NE"
+                },
+                "date": "2022-12-20T22:16:50+0000",
+                "latitude": 19.22558,
+                "longitude": -96.19596,
+                "streetReference": null,
+                "altitude": 124.0,
+                "isSatelliteSource": false
+            }
+        },
+        {
+            "assetId": 87435,
+            "vehicleNumber": "C-0063",
+            "numberPlates": "43AK4M",
+            "vehicleBrand": "FREIGHTLINER",
+            "vehicleModel": "CASCADIA",
+            "vehicleYear": "2019",
+            "vin": "3AKJGLDR6KDKN6575",
+            "engineModel": "DD13 EURO V",
+            "groupName": "TRANSBELCHEZ",
+            "groups": [
+                {
+                    "groupId": 5594,
+                    "groupName": "Acceso a clientes"
+                },
+                {
+                    "groupId": 6621,
+                    "groupName": "apigbelchez1"
+                }
+            ],
+            "serialNumber": "0580037478",
+            "position": {
+                "gpsSpeed": 0.0,
+                "gpsDistance": 77882.032,
+                "driver": {
+                    "driverId": 76898,
+                    "driverName": "OP-87435",
+                    "driverLastName": "-",
+                    "driverKey": "123"
+                },
+                "status": {
+                    "diagnosticStatusId": 11235,
+                    "diagnosticStatus": "En operación",
+                    "operationalStatusId": 18586,
+                    "operationalStatus": "Disponible"
+                },
+                "events": [],
+                "ignition": false,
+                "orientation": 0.0,
+                "orientationLabel": "N",
+                "satellites": 22,
+                "temperatures": [],
+                "nearestCityReference": "A 1 Km al SE de la ciudad: Tezoyuca, MEX.",
+                "nearestCity": {
+                    "distance": 1.85206191494328,
+                    "name": "Tezoyuca, MEX",
+                    "orientation": "SE"
+                },
+                "date": "2022-12-20T22:02:49+0000",
+                "latitude": 19.58469,
+                "longitude": -98.91935,
+                "streetReference": null,
+                "altitude": 2251.0,
+                "isSatelliteSource": false
+            }
+        },
+        {
+            "assetId": 88203,
+            "vehicleNumber": "C-0016",
+            "numberPlates": "22AA6V",
+            "vehicleBrand": "FREIGHTLINER",
+            "vehicleModel": "CASCADIA",
+            "vehicleYear": "2016",
+            "vin": "3AKJGLDR6GSHH4686",
+            "engineModel": "DD13 EURO V",
+            "groupName": "apigbelchez1",
+            "groups": [
+                {
+                    "groupId": 6621,
+                    "groupName": "apigbelchez1"
+                }
+            ],
+            "serialNumber": "0580039893",
+            "position": {
+                "gpsSpeed": 0.0,
+                "gpsDistance": 12601.223,
+                "driver": {
+                    "driverId": 77694,
+                    "driverName": "OP-88203",
+                    "driverLastName": "-",
+                    "driverKey": "123"
+                },
+                "status": {
+                    "diagnosticStatusId": 11235,
+                    "diagnosticStatus": "En operación",
+                    "operationalStatusId": 18586,
+                    "operationalStatus": "Disponible"
+                },
+                "events": [],
+                "ignition": false,
+                "orientation": 0.0,
+                "orientationLabel": "N",
+                "satellites": 20,
+                "temperatures": [],
+                "nearestCityReference": "A 5 Km al NE de la ciudad: Veracruz, VER.",
+                "nearestCity": {
+                    "distance": 5.112811933326118,
+                    "name": "Veracruz, VER",
+                    "orientation": "NE"
+                },
+                "date": "2022-12-20T22:01:01+0000",
+                "latitude": 19.22482,
+                "longitude": -96.19567,
+                "streetReference": null,
+                "altitude": 28.0,
+                "isSatelliteSource": false
+            }
+        },
+        {
+            "assetId": 88208,
+            "vehicleNumber": "C-0053",
+            "numberPlates": "72AD9Z",
+            "vehicleBrand": "FREIGHTLINER",
+            "vehicleModel": "CASCADIA",
+            "vehicleYear": "2018",
+            "vin": "3AKJGLDR1HSJF0065",
+            "engineModel": "Generico",
+            "groupName": "TRANSBELCHEZ",
+            "groups": [
+                {
+                    "groupId": 5594,
+                    "groupName": "Acceso a clientes"
+                },
+                {
+                    "groupId": 6621,
+                    "groupName": "apigbelchez1"
+                },
+                {
+                    "groupId": 21576,
+                    "groupName": "c-0053"
+                }
+            ],
+            "serialNumber": "0580039880",
+            "position": {
+                "gpsSpeed": 100.28,
+                "gpsDistance": 75993.354,
+                "driver": {
+                    "driverId": 77699,
+                    "driverName": "OP-88208",
+                    "driverLastName": "-",
+                    "driverKey": "123"
+                },
+                "status": {
+                    "diagnosticStatusId": 11235,
+                    "diagnosticStatus": "En operación",
+                    "operationalStatusId": 18586,
+                    "operationalStatus": "Disponible"
+                },
+                "events": [
+                    {
+                        "eventType": 22,
+                        "event": "Exceso de velocidad sostenida",
+                        "eventTypeName": "Exceso de velocidad sostenida",
+                        "eventDescription": "Duración exceso de velocidad 4 minutos 30 segundos; Tiempo configurado para alerta 2 minutos 0 segundos; Límite de velocidad configurado 100 km/h; Velocidad inicial 116 km/h; Velocidad final 100 km/h"
+                    }
+                ],
+                "ignition": true,
+                "orientation": 136.57,
+                "orientationLabel": "SE",
+                "satellites": 21,
+                "temperatures": [],
+                "nearestCityReference": "A 7 Km al NO de la ciudad: Emiliano Zapata, VER.",
+                "nearestCity": {
+                    "distance": 7.450056864991305,
+                    "name": "Emiliano Zapata, VER",
+                    "orientation": "NO"
+                },
+                "date": "2022-12-20T22:17:32+0000",
+                "latitude": 19.4825,
+                "longitude": -96.78641,
+                "streetReference": null,
+                "altitude": 939.0,
+                "isSatelliteSource": false
+            }
+        },
+        {
+            "assetId": 87445,
+            "vehicleNumber": "C-0030",
+            "numberPlates": "34AM2Y",
+            "vehicleBrand": "KENWORTH",
+            "vehicleModel": "T680",
+            "vehicleYear": "2020",
+            "vin": "3WKYD40X7LF516715",
+            "engineModel": "ISX",
+            "groupName": "TRANSBELCHEZ",
+            "groups": [
+                {
+                    "groupId": 5594,
+                    "groupName": "Acceso a clientes"
+                },
+                {
+                    "groupId": 6621,
+                    "groupName": "apigbelchez1"
+                }
+            ],
+            "serialNumber": "0580037485",
+            "position": {
+                "gpsSpeed": 0.0,
+                "gpsDistance": 89547.855,
+                "driver": {
+                    "driverId": 76909,
+                    "driverName": "OP-87445",
+                    "driverLastName": "-",
+                    "driverKey": "123"
+                },
+                "status": {
+                    "diagnosticStatusId": 11235,
+                    "diagnosticStatus": "En operación",
+                    "operationalStatusId": 18586,
+                    "operationalStatus": "Disponible"
+                },
+                "events": [],
+                "ignition": false,
+                "orientation": 0.0,
+                "orientationLabel": "N",
+                "satellites": 17,
+                "temperatures": [],
+                "nearestCityReference": "A 12 Km al SE de la ciudad: La Antigua, VER.",
+                "nearestCity": {
+                    "distance": 12.990489271216866,
+                    "name": "La Antigua, VER",
+                    "orientation": "SE"
+                },
+                "date": "2022-12-20T22:16:33+0000",
+                "latitude": 19.22233,
+                "longitude": -96.22705,
+                "streetReference": null,
+                "altitude": 17.0,
+                "isSatelliteSource": false
+            }
+        },
+        {
+            "assetId": 95701,
+            "vehicleNumber": "C-0120",
+            "numberPlates": "16AX5A",
+            "vehicleBrand": "FREIGHTLINER",
+            "vehicleModel": "CASCADIA",
+            "vehicleYear": "2023",
+            "vin": "3AKJHPDV4PSUK0410",
+            "engineModel": "DD13",
+            "groupName": "TRANSBELCHEZ",
+            "groups": [
+                {
+                    "groupId": 6621,
+                    "groupName": "apigbelchez1"
+                }
+            ],
+            "serialNumber": "0580041908",
+            "position": {
+                "gpsSpeed": 0.0,
+                "gpsDistance": 49022.06,
+                "driver": {
+                    "driverId": 85491,
+                    "driverName": "OP-95701",
+                    "driverLastName": "-",
+                    "driverKey": "123"
+                },
+                "status": {
+                    "diagnosticStatusId": 11235,
+                    "diagnosticStatus": "En operación",
+                    "operationalStatusId": 18586,
+                    "operationalStatus": "Disponible"
+                },
+                "events": [],
+                "ignition": false,
+                "orientation": 0.0,
+                "orientationLabel": "N",
+                "satellites": 21,
+                "temperatures": [],
+                "nearestCityReference": "A 5 Km al NE de la ciudad: Veracruz, VER.",
+                "nearestCity": {
+                    "distance": 5.185875395772635,
+                    "name": "Veracruz, VER",
+                    "orientation": "NE"
+                },
+                "date": "2022-12-20T22:15:22+0000",
+                "latitude": 19.22548,
+                "longitude": -96.19547,
+                "streetReference": null,
+                "altitude": 27.0,
+                "isSatelliteSource": false
+            }
+        },
+        {
+            "assetId": 95703,
+            "vehicleNumber": "C-0121",
+            "numberPlates": "17AX5A",
+            "vehicleBrand": "FREIGHTLINER",
+            "vehicleModel": "CASCADIA",
+            "vehicleYear": "2023",
+            "vin": "3AKJHPDV4PSUK0412",
+            "engineModel": "DD13",
+            "groupName": "TRANSBELCHEZ",
+            "groups": [
+                {
+                    "groupId": 6621,
+                    "groupName": "apigbelchez1"
+                }
+            ],
+            "serialNumber": "0580041918",
+            "position": {
+                "gpsSpeed": 0.0,
+                "gpsDistance": 54257.787,
+                "driver": {
+                    "driverId": 85493,
+                    "driverName": "OP-95703",
+                    "driverLastName": "-",
+                    "driverKey": "123"
+                },
+                "status": {
+                    "diagnosticStatusId": 11235,
+                    "diagnosticStatus": "En operación",
+                    "operationalStatusId": 18586,
+                    "operationalStatus": "Disponible"
+                },
+                "events": [],
+                "ignition": false,
+                "orientation": 0.0,
+                "orientationLabel": "N",
+                "satellites": 21,
+                "temperatures": [],
+                "nearestCityReference": "A 9 Km al SE de la ciudad: Tepeji del Río de Ocampo, HID.",
+                "nearestCity": {
+                    "distance": 9.34452131397574,
+                    "name": "Tepeji del Río de Ocampo, HID",
+                    "orientation": "SE"
+                },
+                "date": "2022-12-20T22:12:57+0000",
+                "latitude": 19.86368,
+                "longitude": -99.28432,
+                "streetReference": null,
+                "altitude": 2329.0,
+                "isSatelliteSource": false
+            }
+        },
+        {
+            "assetId": 87451,
+            "vehicleNumber": "C-0023",
+            "numberPlates": "10AM1D",
+            "vehicleBrand": "FREIGHTLINER",
+            "vehicleModel": "CASCADIA",
+            "vehicleYear": "2019",
+            "vin": "3AKJGLDR9KDKR3040",
+            "engineModel": "DD13 EPA07",
+            "groupName": "TRANSBELCHEZ",
+            "groups": [
+                {
+                    "groupId": 5594,
+                    "groupName": "Acceso a clientes"
+                },
+                {
+                    "groupId": 6621,
+                    "groupName": "apigbelchez1"
+                }
+            ],
+            "serialNumber": "0580037484",
+            "position": {
+                "gpsSpeed": 0.0,
+                "gpsDistance": 81749.967,
+                "driver": {
+                    "driverId": 76915,
+                    "driverName": "OP-87451",
+                    "driverLastName": "-",
+                    "driverKey": "123"
+                },
+                "status": {
+                    "diagnosticStatusId": 11235,
+                    "diagnosticStatus": "En operación",
+                    "operationalStatusId": 18586,
+                    "operationalStatus": "Disponible"
+                },
+                "events": [],
+                "ignition": false,
+                "orientation": 0.0,
+                "orientationLabel": "N",
+                "satellites": 20,
+                "temperatures": [],
+                "nearestCityReference": "A 5 Km al NE de la ciudad: Veracruz, VER.",
+                "nearestCity": {
+                    "distance": 5.1424841221296065,
+                    "name": "Veracruz, VER",
+                    "orientation": "NE"
+                },
+                "date": "2022-12-20T22:06:25+0000",
+                "latitude": 19.22522,
+                "longitude": -96.19581,
+                "streetReference": null,
+                "altitude": 30.0,
+                "isSatelliteSource": false
+            }
+        },
+        {
+            "assetId": 87450,
+            "vehicleNumber": "C-0100",
+            "numberPlates": "13AG8H",
+            "vehicleBrand": "INTERNATIONAL",
+            "vehicleModel": "LF687",
+            "vehicleYear": "2018",
+            "vin": "3HSDJAPT0JN626622",
+            "engineModel": "DD13",
+            "groupName": "TRANSBELCHEZ",
+            "groups": [
+                {
+                    "groupId": 5594,
+                    "groupName": "Acceso a clientes"
+                },
+                {
+                    "groupId": 6621,
+                    "groupName": "apigbelchez1"
+                },
+                {
+                    "groupId": 21575,
+                    "groupName": "c-0100"
+                }
+            ],
+            "serialNumber": "0580037494",
+            "position": {
+                "gpsSpeed": 10.79,
+                "gpsDistance": 80538.146,
+                "driver": {
+                    "driverId": 76914,
+                    "driverName": "OP-87450",
+                    "driverLastName": "-",
+                    "driverKey": "123"
+                },
+                "status": {
+                    "diagnosticStatusId": 11235,
+                    "diagnosticStatus": "En operación",
+                    "operationalStatusId": 18586,
+                    "operationalStatus": "Disponible"
+                },
+                "events": [],
+                "ignition": true,
+                "orientation": 52.36,
+                "orientationLabel": "NE",
+                "satellites": 20,
+                "temperatures": [],
+                "nearestCityReference": "A 5 Km al NE de la ciudad: Veracruz, VER.",
+                "nearestCity": {
+                    "distance": 5.27524241900181,
+                    "name": "Veracruz, VER",
+                    "orientation": "NE"
+                },
+                "date": "2022-12-20T22:16:59+0000",
+                "latitude": 19.22577,
+                "longitude": -96.19437,
+                "streetReference": null,
+                "altitude": 27.0,
+                "isSatelliteSource": false
+            }
+        },
+        {
+            "assetId": 91103,
+            "vehicleNumber": "C-0102",
+            "numberPlates": "42AS8S",
+            "vehicleBrand": "INTERNATIONAL",
+            "vehicleModel": "LF687",
+            "vehicleYear": "2019",
+            "vin": "3HSDJAPT2KN683423",
+            "engineModel": "Generico",
+            "groupName": "TRANSBELCHEZ",
+            "groups": [
+                {
+                    "groupId": 5594,
+                    "groupName": "Acceso a clientes"
+                },
+                {
+                    "groupId": 6621,
+                    "groupName": "apigbelchez1"
+                }
+            ],
+            "serialNumber": "0580039883",
+            "position": {
+                "gpsSpeed": 95.37,
+                "gpsDistance": 37041.789,
+                "driver": {
+                    "driverId": 80658,
+                    "driverName": "OP-91103",
+                    "driverLastName": "-",
+                    "driverKey": "123"
+                },
+                "status": {
+                    "diagnosticStatusId": 11235,
+                    "diagnosticStatus": "En operación",
+                    "operationalStatusId": 18586,
+                    "operationalStatus": "Disponible"
+                },
+                "events": [],
+                "ignition": true,
+                "orientation": 136.33,
+                "orientationLabel": "SE",
+                "satellites": 21,
+                "temperatures": [],
+                "nearestCityReference": "A 7 Km al NO de la ciudad: Emiliano Zapata, VER.",
+                "nearestCity": {
+                    "distance": 7.599697502404228,
+                    "name": "Emiliano Zapata, VER",
+                    "orientation": "NO"
+                },
+                "date": "2022-12-20T22:18:22+0000",
+                "latitude": 19.48351,
+                "longitude": -96.78738,
+                "streetReference": null,
+                "altitude": 929.0,
+                "isSatelliteSource": false
+            }
+        },
+        {
+            "assetId": 93726,
+            "vehicleNumber": "C-0058",
+            "numberPlates": "86AK2A",
+            "vehicleBrand": "FREIGHTLINER",
+            "vehicleModel": "CASCADIA",
+            "vehicleYear": "2019",
+            "vin": "3AKJGLDRXKDKR3046",
+            "engineModel": "Generico",
+            "groupName": "TRANSBELCHEZ",
+            "groups": [
+                {
+                    "groupId": 6621,
+                    "groupName": "apigbelchez1"
+                },
+                {
+                    "groupId": 8359,
+                    "groupName": "C-0022"
+                }
+            ],
+            "serialNumber": "0580039891",
+            "position": {
+                "gpsSpeed": 0.0,
+                "gpsDistance": 55374.401,
+                "driver": {
+                    "driverId": 83387,
+                    "driverName": "OP-93726",
+                    "driverLastName": "-",
+                    "driverKey": "123"
+                },
+                "status": {
+                    "diagnosticStatusId": 11235,
+                    "diagnosticStatus": "En operación",
+                    "operationalStatusId": 18586,
+                    "operationalStatus": "Disponible"
+                },
+                "events": [],
+                "ignition": false,
+                "orientation": 0.0,
+                "orientationLabel": "N",
+                "satellites": 20,
+                "temperatures": [],
+                "nearestCityReference": "A 5 Km al NE de la ciudad: Veracruz, VER.",
+                "nearestCity": {
+                    "distance": 5.145131529140143,
+                    "name": "Veracruz, VER",
+                    "orientation": "NE"
+                },
+                "date": "2022-12-20T22:07:59+0000",
+                "latitude": 19.22526,
+                "longitude": -96.19583,
+                "streetReference": null,
+                "altitude": 32.0,
+                "isSatelliteSource": false
+            }
+        },
+        {
+            "assetId": 104030,
+            "vehicleNumber": "127",
+            "numberPlates": "39AY8J",
+            "vehicleBrand": "SCANIA",
+            "vehicleModel": "R500",
+            "vehicleYear": "2020",
+            "vin": "YS2R6X408P9306374",
+            "engineModel": "Generico",
+            "groupName": "TRANSBELCHEZ",
+            "groups": [],
+            "serialNumber": "0580044045",
+            "position": {
+                "gpsSpeed": 0.0,
+                "gpsDistance": 1.163,
+                "driver": {
+                    "driverId": 94344,
+                    "driverName": "OP-104030",
+                    "driverLastName": "-",
+                    "driverKey": "123"
+                },
+                "status": {
+                    "diagnosticStatusId": 11236,
+                    "diagnosticStatus": "Solicitud de revisión servicio técnico",
+                    "operationalStatusId": 18586,
+                    "operationalStatus": "Disponible"
+                },
+                "events": [],
+                "ignition": false,
+                "orientation": 0.0,
+                "orientationLabel": "N",
+                "satellites": 21,
+                "temperatures": [],
+                "nearestCityReference": "A 5 Km al NE de la ciudad: Veracruz, VER.",
+                "nearestCity": {
+                    "distance": 5.165811301738983,
+                    "name": "Veracruz, VER",
+                    "orientation": "NE"
+                },
+                "date": "2022-12-20T22:14:46+0000",
+                "latitude": 19.22562,
+                "longitude": -96.19607,
+                "streetReference": null,
+                "altitude": 23.0,
+                "isSatelliteSource": false
+            }
+        },
+        {
+            "assetId": 96293,
+            "vehicleNumber": "C-0122",
+            "numberPlates": "15AX5A",
+            "vehicleBrand": "FREIGHTLINER",
+            "vehicleModel": "NEW CASCADIA",
+            "vehicleYear": "2021",
+            "vin": "3AKJHPDV6PSUK0413",
+            "engineModel": "DD13 EURO V",
+            "groupName": "TRANSBELCHEZ",
+            "groups": [
+                {
+                    "groupId": 6621,
+                    "groupName": "apigbelchez1"
+                }
+            ],
+            "serialNumber": "0580041923",
+            "position": {
+                "gpsSpeed": 0.0,
+                "gpsDistance": 49200.212,
+                "driver": {
+                    "driverId": 86112,
+                    "driverName": "OP-96293",
+                    "driverLastName": "-",
+                    "driverKey": "123"
+                },
+                "status": {
+                    "diagnosticStatusId": 11235,
+                    "diagnosticStatus": "En operación",
+                    "operationalStatusId": 18586,
+                    "operationalStatus": "Disponible"
+                },
+                "events": [],
+                "ignition": true,
+                "orientation": 10.0,
+                "orientationLabel": "N",
+                "satellites": 19,
+                "temperatures": [],
+                "nearestCityReference": "A 2 Km al N de la ciudad: Tultitlán, MEX.",
+                "nearestCity": {
+                    "distance": 2.8878598315858013,
+                    "name": "Tultitlán, MEX",
+                    "orientation": "N"
+                },
+                "date": "2022-12-20T22:18:13+0000",
+                "latitude": 19.65057,
+                "longitude": -99.15517,
+                "streetReference": null,
+                "altitude": 2264.0,
+                "isSatelliteSource": false
+            }
+        },
+        {
+            "assetId": 87463,
+            "vehicleNumber": "C-0060",
+            "numberPlates": "84AK2A",
+            "vehicleBrand": "FREIGHTLINER",
+            "vehicleModel": "CASCADIA",
+            "vehicleYear": "2019",
+            "vin": "3AKJGLDR0KDKL9822",
+            "engineModel": "DD13",
+            "groupName": "TRANSBELCHEZ",
+            "groups": [
+                {
+                    "groupId": 5594,
+                    "groupName": "Acceso a clientes"
+                },
+                {
+                    "groupId": 6621,
+                    "groupName": "apigbelchez1"
+                }
+            ],
+            "serialNumber": "0580037491",
+            "position": {
+                "gpsSpeed": 0.0,
+                "gpsDistance": 80895.711,
+                "driver": {
+                    "driverId": 76927,
+                    "driverName": "OP-87463",
+                    "driverLastName": "-",
+                    "driverKey": "123"
+                },
+                "status": {
+                    "diagnosticStatusId": 11235,
+                    "diagnosticStatus": "En operación",
+                    "operationalStatusId": 18586,
+                    "operationalStatus": "Disponible"
+                },
+                "events": [],
+                "ignition": false,
+                "orientation": 0.0,
+                "orientationLabel": "N",
+                "satellites": 15,
+                "temperatures": [],
+                "nearestCityReference": "A 5 Km al NE de la ciudad: Veracruz, VER.",
+                "nearestCity": {
+                    "distance": 5.133607584606055,
+                    "name": "Veracruz, VER",
+                    "orientation": "NE"
+                },
+                "date": "2022-12-20T22:04:11+0000",
+                "latitude": 19.22506,
+                "longitude": -96.1957,
+                "streetReference": null,
+                "altitude": 26.0,
+                "isSatelliteSource": false
+            }
+        },
+        {
+            "assetId": 87527,
+            "vehicleNumber": "C-0026",
+            "numberPlates": "33AM4Y",
+            "vehicleBrand": "FREIGHTLINER",
+            "vehicleModel": "CASCADIA",
+            "vehicleYear": "2019",
+            "vin": "3AKJGLDR4KDKR3043",
+            "engineModel": "Generico",
+            "groupName": "TRANSBELCHEZ",
+            "groups": [
+                {
+                    "groupId": 5594,
+                    "groupName": "Acceso a clientes"
+                },
+                {
+                    "groupId": 6621,
+                    "groupName": "apigbelchez1"
+                },
+                {
+                    "groupId": 21813,
+                    "groupName": "Grupo Virtual C-0026 monitoreo@grupobelchez.com"
+                }
+            ],
+            "serialNumber": "0580037487",
+            "position": {
+                "gpsSpeed": 0.0,
+                "gpsDistance": 93926.813,
+                "driver": {
+                    "driverId": 76994,
+                    "driverName": "OP-87527",
+                    "driverLastName": "-",
+                    "driverKey": "123"
+                },
+                "status": {
+                    "diagnosticStatusId": 11235,
+                    "diagnosticStatus": "En operación",
+                    "operationalStatusId": 18586,
+                    "operationalStatus": "Disponible"
+                },
+                "events": [],
+                "ignition": false,
+                "orientation": 0.0,
+                "orientationLabel": "N",
+                "satellites": 20,
+                "temperatures": [],
+                "nearestCityReference": "A 5 Km al NE de la ciudad: Veracruz, VER.",
+                "nearestCity": {
+                    "distance": 5.152210255584098,
+                    "name": "Veracruz, VER",
+                    "orientation": "NE"
+                },
+                "date": "2022-12-20T15:45:19+0000",
+                "latitude": 19.2254,
+                "longitude": -96.19594,
+                "streetReference": null,
+                "altitude": 41.0,
+                "isSatelliteSource": false
+            }
+        },
+        {
+            "assetId": 104109,
+            "vehicleNumber": "C-0129",
+            "numberPlates": "42AY8J",
+            "vehicleBrand": "SCANIA",
+            "vehicleModel": "R500",
+            "vehicleYear": "2020",
+            "vin": "YS2R6X400P9306336",
+            "engineModel": "DD13",
+            "groupName": "TRANSBELCHEZ",
+            "groups": [],
+            "serialNumber": "0580045022",
+            "position": {
+                "gpsSpeed": 0.0,
+                "gpsDistance": 2.002,
+                "driver": {
+                    "driverId": 94423,
+                    "driverName": "OP-104109",
+                    "driverLastName": "-",
+                    "driverKey": "123"
+                },
+                "status": {
+                    "diagnosticStatusId": 11235,
+                    "diagnosticStatus": "En operación",
+                    "operationalStatusId": 18586,
+                    "operationalStatus": "Disponible"
+                },
+                "events": [],
+                "ignition": false,
+                "orientation": 0.0,
+                "orientationLabel": "N",
+                "satellites": 20,
+                "temperatures": [],
+                "nearestCityReference": "A 5 Km al NE de la ciudad: Veracruz, VER.",
+                "nearestCity": {
+                    "distance": 5.160374021401808,
+                    "name": "Veracruz, VER",
+                    "orientation": "NE"
+                },
+                "date": "2022-12-20T22:11:59+0000",
+                "latitude": 19.22551,
+                "longitude": -96.19598,
+                "streetReference": null,
+                "altitude": 10.0,
+                "isSatelliteSource": false
+            }
+        },
+        {
+            "assetId": 87471,
+            "vehicleNumber": "C-0101",
+            "numberPlates": "38AM2Y",
+            "vehicleBrand": "INTERNATIONAL",
+            "vehicleModel": "LF687",
+            "vehicleYear": "2018",
+            "vin": "3HSDJAPT9JN626635",
+            "engineModel": "DD13 EPA07",
+            "groupName": "TRANSBELCHEZ",
+            "groups": [
+                {
+                    "groupId": 5594,
+                    "groupName": "Acceso a clientes"
+                },
+                {
+                    "groupId": 6621,
+                    "groupName": "apigbelchez1"
+                }
+            ],
+            "serialNumber": "0580037365",
+            "position": {
+                "gpsSpeed": 94.35,
+                "gpsDistance": 80184.645,
+                "driver": {
+                    "driverId": 76935,
+                    "driverName": "OP-87471",
+                    "driverLastName": "-",
+                    "driverKey": "123"
+                },
+                "status": {
+                    "diagnosticStatusId": 11235,
+                    "diagnosticStatus": "En operación",
+                    "operationalStatusId": 18586,
+                    "operationalStatus": "Disponible"
+                },
+                "events": [],
+                "ignition": true,
+                "orientation": 265.61,
+                "orientationLabel": "W",
+                "satellites": 21,
+                "temperatures": [],
+                "nearestCityReference": "A 5 Km al NO de la ciudad: Timilpan, MEX.",
+                "nearestCity": {
+                    "distance": 5.5086604205024505,
+                    "name": "Timilpan, MEX",
+                    "orientation": "NO"
+                },
+                "date": "2022-12-20T22:18:09+0000",
+                "latitude": 19.94224,
+                "longitude": -99.73842,
+                "streetReference": null,
+                "altitude": 2617.0,
+                "isSatelliteSource": false
+            }
+        },
+        {
+            "assetId": 91119,
+            "vehicleNumber": "C-0054",
+            "numberPlates": "73AD9Z",
+            "vehicleBrand": "FREIGHTLINER",
+            "vehicleModel": "CASCADIA",
+            "vehicleYear": "2017",
+            "vin": "3AKJGLDR3HSJF0066",
+            "engineModel": "Generico",
+            "groupName": "TRANSBELCHEZ",
+            "groups": [
+                {
+                    "groupId": 5594,
+                    "groupName": "Acceso a clientes"
+                },
+                {
+                    "groupId": 6621,
+                    "groupName": "apigbelchez1"
+                }
+            ],
+            "serialNumber": "0580039881",
+            "position": {
+                "gpsSpeed": 71.89,
+                "gpsDistance": 82695.312,
+                "driver": {
+                    "driverId": 80675,
+                    "driverName": "OP-91119",
+                    "driverLastName": "-",
+                    "driverKey": "123"
+                },
+                "status": {
+                    "diagnosticStatusId": 11235,
+                    "diagnosticStatus": "En operación",
+                    "operationalStatusId": 18586,
+                    "operationalStatus": "Disponible"
+                },
+                "events": [],
+                "ignition": true,
+                "orientation": 68.87,
+                "orientationLabel": "E",
+                "satellites": 21,
+                "temperatures": [],
+                "nearestCityReference": "A 20 Km al O de la ciudad: Texcoco, MEX.",
+                "nearestCity": {
+                    "distance": 20.73219374651078,
+                    "name": "Texcoco, MEX",
+                    "orientation": "O"
+                },
+                "date": "2022-12-20T22:17:55+0000",
+                "latitude": 19.46154,
+                "longitude": -99.02494,
+                "streetReference": null,
+                "altitude": 2232.0,
+                "isSatelliteSource": false
+            }
+        },
+        {
+            "assetId": 93679,
+            "vehicleNumber": "C-0081",
+            "numberPlates": "10AH6D",
+            "vehicleBrand": "FREIGHTLINER",
+            "vehicleModel": "CASCADIA",
+            "vehicleYear": "2018",
+            "vin": "3AKJGLDRXJDJZ9702",
+            "engineModel": "Generico",
+            "groupName": "TRANSBELCHEZ",
+            "groups": [
+                {
+                    "groupId": 6621,
+                    "groupName": "apigbelchez1"
+                }
+            ],
+            "serialNumber": "0580039268",
+            "position": {
+                "gpsSpeed": 0.01,
+                "gpsDistance": 72426.342,
+                "driver": {
+                    "driverId": 83338,
+                    "driverName": "OP-93679",
+                    "driverLastName": "-",
+                    "driverKey": "123"
+                },
+                "status": {
+                    "diagnosticStatusId": 11235,
+                    "diagnosticStatus": "En operación",
+                    "operationalStatusId": 18586,
+                    "operationalStatus": "Disponible"
+                },
+                "events": [],
+                "ignition": true,
+                "orientation": 268.36,
+                "orientationLabel": "W",
+                "satellites": 19,
+                "temperatures": [],
+                "nearestCityReference": "A 7 Km al E de la ciudad: Veracruz, VER.",
+                "nearestCity": {
+                    "distance": 7.905684105026362,
+                    "name": "Veracruz, VER",
+                    "orientation": "E"
+                },
+                "date": "2022-12-20T22:16:29+0000",
+                "latitude": 19.21076,
+                "longitude": -96.15128,
+                "streetReference": null,
+                "altitude": 9.0,
+                "isSatelliteSource": false
+            }
+        },
+        {
+            "assetId": 94319,
+            "vehicleNumber": "C-0015",
+            "numberPlates": "57AR7E",
+            "vehicleBrand": "FREIGHTLINER",
+            "vehicleModel": "CASCADIA",
+            "vehicleYear": "2016",
+            "vin": "3AKJGLDR4G3HH4685",
+            "engineModel": "DD13",
+            "groupName": "apigbelchez1",
+            "groups": [
+                {
+                    "groupId": 6621,
+                    "groupName": "apigbelchez1"
+                }
+            ],
+            "serialNumber": "0580040531",
+            "position": {
+                "gpsSpeed": 0.09,
+                "gpsDistance": 29747.287,
+                "driver": {
+                    "driverId": 84000,
+                    "driverName": "OP-94319",
+                    "driverLastName": "-",
+                    "driverKey": "123"
+                },
+                "status": {
+                    "diagnosticStatusId": 11235,
+                    "diagnosticStatus": "En operación",
+                    "operationalStatusId": 18586,
+                    "operationalStatus": "Disponible"
+                },
+                "events": [],
+                "ignition": true,
+                "orientation": 111.56,
+                "orientationLabel": "E",
+                "satellites": 21,
+                "temperatures": [],
+                "nearestCityReference": "A 5 Km al NE de la ciudad: Veracruz, VER.",
+                "nearestCity": {
+                    "distance": 5.125736900912109,
+                    "name": "Veracruz, VER",
+                    "orientation": "NE"
+                },
+                "date": "2022-12-20T22:16:25+0000",
+                "latitude": 19.22458,
+                "longitude": -96.19505,
+                "streetReference": null,
+                "altitude": 25.0,
+                "isSatelliteSource": false
+            }
+        },
+        {
+            "assetId": 94320,
+            "vehicleNumber": "C-0017",
+            "numberPlates": "23AA6V",
+            "vehicleBrand": "FREIGHTLINER",
+            "vehicleModel": "CASCADIA",
+            "vehicleYear": "2016",
+            "vin": "3AKJGLDR8GHH4687",
+            "engineModel": "DD13",
+            "groupName": "apigbelchez1",
+            "groups": [
+                {
+                    "groupId": 6621,
+                    "groupName": "apigbelchez1"
+                }
+            ],
+            "serialNumber": "0580040545",
+            "position": {
+                "gpsSpeed": 0.0,
+                "gpsDistance": 9512.179,
+                "driver": {
+                    "driverId": 84001,
+                    "driverName": "OP-94320",
+                    "driverLastName": "-",
+                    "driverKey": "123"
+                },
+                "status": {
+                    "diagnosticStatusId": 11235,
+                    "diagnosticStatus": "En operación",
+                    "operationalStatusId": 18586,
+                    "operationalStatus": "Disponible"
+                },
+                "events": [],
+                "ignition": false,
+                "orientation": 0.0,
+                "orientationLabel": "N",
+                "satellites": 20,
+                "temperatures": [],
+                "nearestCityReference": "A 7 Km al S de la ciudad: Manzanillo, COL.",
+                "nearestCity": {
+                    "distance": 7.856129142565522,
+                    "name": "Manzanillo, COL",
+                    "orientation": "S"
+                },
+                "date": "2022-12-20T22:06:23+0000",
+                "latitude": 19.08008,
+                "longitude": -104.28844,
+                "streetReference": null,
+                "altitude": 1.0,
+                "isSatelliteSource": false
+            }
+        }
+    ],
+    "meta": {
+        "transactionId": 1671574724117,
+        "clientId": 1195,
+        "userId": 10858,
+        "queryDate": "2022-12-20T22:18:44+0000"
+    }
+}

@@ -23,7 +23,6 @@ require_once('../../mysql/conexion.php');
                 <button type="button" class="btn btn-white" data-bs-dismiss="modal">Cancelar</button>
                 <button id="Iniciar" type="button" class="btn btn-primary">Iniciar</button>
                 <button id="Finalizar" type="button" class="btn btn-danger">Finalizar</button>
-
             </div>
         </div>
     </div>

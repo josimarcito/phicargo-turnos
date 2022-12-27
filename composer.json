@@ -1375,5 +1375,8 @@
         "clientId": 1195,
         "userId": 10858,
         "queryDate": "2022-12-08T23:13:19+0000"
+    },
+    "require": {
+        "mjaschen/phpgeo": "^4.2"
     }
 }

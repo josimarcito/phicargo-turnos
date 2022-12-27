@@ -24,15 +24,23 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
 	<link href="../../select/css/select.css" rel="stylesheet" />
 
-	<!-- END SETTINGS -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120946860-10"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css" />
 
-  gtag('config', 'UA-120946860-10', { 'anonymize_ip': true });
-</script></head>
+	<!-- END SETTINGS -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120946860-10"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-120946860-10', {
+			'anonymize_ip': true
+		});
+	</script>
+</head>
 <!--
   HOW TO USE: 
   data-theme: default (default), dark, light, colored
@@ -40,5 +48,3 @@
   data-sidebar-position: left (default), right
   data-sidebar-layout: default (default), compact
 -->
-
-

@@ -5,7 +5,7 @@
 
         <div class="row mb-2 mb-xl-3">
             <div class="col-auto d-none d-sm-block">
-                <h1 class="h3 mb-3"><strong>Viajes activos </strong>Base Veracruz</h1>
+                <h1 class="h3 mb-3"><strong>Viajes </strong></h1>
             </div>
 
             <div class="col-auto ms-auto text-end mt-n1">

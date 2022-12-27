@@ -4,21 +4,39 @@ require_once "../../../mysql/conexion.php";
 
 $cn = conectar();
 $id_turno    = $_POST['idturnoup'];
+$dato        = $_POST['turnoup'];
 $id_operador = $_POST['operadorup'];
 $placas      = $_POST['unidadup'];
 $fecha       = $_POST['fechaup'];
 $hora        = $_POST['horaup'];
 $comentarios = $_POST['comentariosup'];
 
-$sqlInsert = "INSERT INTO COLA VALUES(NULL,$id_operador,'$placas','$fecha','$hora','$comentarios')";
-$sqlDelete = "DELETE FROM TURNOS WHERE ID_TURNO = $id_turno";
+$cn->autocommit(false);
+try {
+    $sqlDelete = "DELETE FROM TURNOS_VERACRUZ WHERE TURNO = $dato";
+    $cn->query($sqlDelete);
 
-if ($cn->query($sqlInsert)) {
-    if ($cn->query($sqlDelete)) {
-        echo 1;
-    } else {
-        echo 0;
+    $sqlSelect = "SELECT TURNO FROM TURNOS_VERACRUZ ORDER BY TURNO DESC";
+    $resultSet = $cn->query($sqlSelect);
+    $row = $resultSet->fetch_assoc();
+    $ultimo = $row['TURNO'];
+
+    $sqlSelect2 = "SELECT TURNO FROM TURNOS_VERACRUZ WHERE TURNO BETWEEN $dato AND $ultimo ORDER BY TURNO ASC";
+    $resultSet2 = $cn->query($sqlSelect2);
+
+    while ($row2 = $resultSet2->fetch_assoc()) {
+        $turno = $row2['TURNO'];
+        $turnoant = $turno - 1;
+        $sqlSelect3 = "UPDATE TURNOS_VERACRUZ SET TURNO = $turnoant WHERE TURNO = $turno";
+        $resultSet3 = $cn->query($sqlSelect3);
     }
-} else {
+
+    $sqlInsert = "INSERT INTO COLA VALUES(NULL,$id_operador,'$placas','$fecha','$hora','$comentarios')";
+    $cn->query($sqlInsert);
+
+    $cn->commit();
+    echo 1;
+} catch (Exception $e) {
+    $cn->rollback();
     echo 0;
 }

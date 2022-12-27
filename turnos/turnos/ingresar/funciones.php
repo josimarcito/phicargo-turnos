@@ -32,21 +32,74 @@
     $(document).ready(function() {
 
         $("#tabla").load('tabla.php');
+        $("#OperadoresEnCola").load('ingresar/Listado.php');
 
         $('#unidad').select2({
-            dropdownParent: $('#IngresarOp'),
+            dropdownParent: $('#modal_ingresar_turno'),
             dropdownAutoWidth: true,
             width: '100%',
         });
         $('#operador').select2({
-            dropdownParent: $('#IngresarOp'),
+            dropdownParent: $('#modal_ingresar_turno'),
             dropdownAutoWidth: true,
             width: '100%',
 
         });
 
-        $("#BtnIngresarOpCola").click(function() {
+        $('#unidadup').select2({
+            dropdownParent: $('#modal_editar_turno'),
+            dropdownAutoWidth: true,
+            width: '100%',
+        });
+        $('#operadorup').select2({
+            dropdownParent: $('#modal_editar_turno'),
+            dropdownAutoWidth: true,
+            width: '100%',
 
+        });
+
+        //DESHABILITAR EDICION
+        $("#BtnEditar").click(function() {
+            unidadup.disabled = false;
+            operadorup.disabled = false;
+            fechaup.disabled = false;
+            horaup.disabled = false;
+            comentariosup.disabled = false;
+            $('#BtnGuardar').show();
+            $('#BtnEditar').hide();
+        });
+        //
+
+        $("#BtnGuardar").click(function() {
+            datos = $("#FormEditar").serialize();
+            console.log(datos);
+            $.ajax({
+                type: "POST",
+                data: datos,
+                url: "ingresar/editar.php",
+                success: function(respuesta) {
+                    if (respuesta == 1) {
+                        notyf.success('Información modificada correctamente.');
+                        $('#unidad').val(0).change();
+                        $('#operador').val(0).change();
+                        $("#modal_editar_turno").modal('toggle');
+                        $("#tabla").load('tabla.php');
+
+                        unidadup.disabled = true;
+                        operadorup.disabled = true;
+                        fechaup.disabled = true;
+                        horaup.disabled = true;
+                        comentariosup.disabled = true;
+                        $('#BtnGuardar').hide();
+                        $('#BtnEditar').show();
+                    } else {
+                        notyf.error('Existe inconsistencia en la información, favor de revisar.');
+                    }
+                }
+            });
+        });
+
+        $("#BtnIngresarOpCola").click(function() {
             datos = $("#FormIngresar").serialize();
             console.log(datos);
             $.ajax({
@@ -58,7 +111,7 @@
                         notyf.success('Operador ingresado correctamente a la cola.');
                         $('#unidad').val(0).change();
                         $('#operador').val(0).change();
-                        $("#IngresarOp").modal('toggle');
+                        $("#modal_ingresar_turno").modal('toggle');
                         $("#tabla").load('tabla.php');
                     } else {
                         notyf.error('Existe inconsistencia en la información, favor de revisar.');
@@ -67,12 +120,19 @@
             });
         });
 
+
         $("#BtnEnviarOpCola").click(function() {
             $("#ConfirmarEnvioCola").modal('toggle');
-            $("#modal_editar").modal('toggle');
+            $("#modal_editar_turno").modal('toggle');
         });
 
         $("#BtnConfirmarEnviarOpCola").click(function() {
+
+            unidadup.disabled = false;
+            operadorup.disabled = false;
+            fechaup.disabled = false;
+            horaup.disabled = false;
+            comentariosup.disabled = false;
 
             datos = $("#FormEditar").serialize();
             console.log(datos);
@@ -82,11 +142,18 @@
                 url: "ingresar/enviar_cola.php",
                 success: function(respuesta) {
                     if (respuesta == 1) {
+                        $("#OperadoresEnCola").load('ingresar/Listado.php');
                         $("#tabla").load('tabla.php');
                         $("#ConfirmarEnvioCola").modal('toggle');
                         notyf.success('Operador enviado a la cola correctamente.');
+
+                        unidadup.disabled = true;
+                        operadorup.disabled = true;
+                        fechaup.disabled = true;
+                        horaup.disabled = true;
+                        comentariosup.disabled = true;
                     } else {
-                        notyf.error('Error.');
+                        notyf.error('Error3d.');
                     }
                 }
             });

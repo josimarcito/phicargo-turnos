@@ -24,8 +24,8 @@ $ids = $models->execute_kw(
     array(array(
         (array('partner_id', '!=', false)),
         (array('waybill_ids', '!=', NULL)),
-        (array('date', '>=', "2022-08-01")),
-        (array('date', '<=', "2022-08-31"))
+        (array('date', '>=', "2022-12-01")),
+        (array('date', '<=', "2022-12-31"))
     )),
     $kwargs
 );

@@ -9,17 +9,18 @@ $resultado_eco = $mysqli->query($query_eco);
 
 ?>
 
-<div class="modal fade" id="modal_editar" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="modal_editar_turno" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Editar datos del turno</h5>
+                <h5 class="modal-title fw-bold" id="exampleModalLabel">Editar información del turno</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
 
             <div class="modal-body">
                 <form id="FormEditar">
                     <input class="form-control" type="hidden" name="idturnoup" id="idturnoup" rows="3"></input>
+                    <input class="form-control" type="hidden" name="turnoup" id="turnoup" rows="3"></input>
 
                     <div class="row mb-4">
                         <label for="" class="col-sm-3 col-form-label form-label">Unidad</label>
@@ -72,6 +73,8 @@ $resultado_eco = $mysqli->query($query_eco);
 
             <div class="modal-footer">
                 <button type="button" class="btn btn-white" data-bs-dismiss="modal">Cancelar</button>
+                <button id="BtnEditar" type="button" class="btn btn-success">Editar</button>
+                <button id="BtnGuardar" type="button" class="btn btn-primary">Guardar</button>
                 <button id="BtnEnviarOpCola" type="button" class="btn btn-danger">Enviar a la cola</button>
             </div>
         </div>
@@ -82,7 +85,7 @@ $resultado_eco = $mysqli->query($query_eco);
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header bg-danger">
-                <h5 class="modal-title text-white" id="exampleModalLabel">Enviar operador a la cola</h5>
+                <h5 class="modal-title text-white fw-bold" id="exampleModalLabel">Enviar operador a la cola</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
 

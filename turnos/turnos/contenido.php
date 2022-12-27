@@ -3,12 +3,14 @@
 
         <div class="row mb-2 mb-xl-3">
             <div class="col-auto d-none d-sm-block">
-                <h1 class="h3 mb-3"><strong>Turnos </strong> Veracruz</h1>
+                <h1 class="h3 mb-3"><strong>Turnos </strong>Base: Veracruz</h1>
             </div>
 
             <div class="col-auto ms-auto text-end mt-n1">
-                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Cola" >Cola</button>
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#IngresarOp" onclick="fecha_hora()">Ingresar a la cola</button>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Cola">Mover un lugar</button>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#Cola">Cola</button>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal_ingresar_turno" onclick="fecha_hora()">Ingresar a la cola</button>
+                <a type="button" class="btn btn-success" href="../programacion_veracruz/index.php">Programar</a>
             </div>
         </div>
 

@@ -9,10 +9,23 @@ $fecha       = $_POST['fecha'];
 $hora        = $_POST['hora'];
 $comentarios = $_POST['comentarios'];
 
-$sqlInsert = "INSERT INTO TURNOS VALUES(NULL,$id_operador,'$placas','$fecha','$hora','$comentarios')";
-if($cn->query($sqlInsert)){
-    echo 1;
-}else{
-    echo 0;
+$sqlSelect = "SELECT TURNO FROM TURNOS_VERACRUZ ORDER BY TURNO DESC";
+$resultSet = $cn->query($sqlSelect);
+$row = $resultSet->fetch_assoc();
+$ultimo_turno = $row['TURNO'];
+$siguiente_turno = $row['TURNO'] + 1;
+if ($ultimo_turno == NULL) {
+    $sqlSelect = "INSERT INTO TURNOS_VERACRUZ VALUES(NULL, 1,$id_operador,'$placas','$fecha','$hora','$comentarios','','')";
+    if ($cn->query($sqlSelect)) {
+        echo 1;
+    } else {
+        echo 0;
+    }
+} else {
+    $sqlSelect = "INSERT INTO TURNOS_VERACRUZ VALUES(NULL,$siguiente_turno,$id_operador,'$placas','$fecha','$hora','$comentarios','','')";
+    if ($cn->query($sqlSelect)) {
+        echo 1;
+    } else {
+        echo 0;
+    }
 }
-

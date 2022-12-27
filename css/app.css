@@ -34,7 +34,7 @@
     --bs-success: #1cbb8c;
     --bs-info: #17a2b8;
     --bs-warning: #fcb92c;
-    --bs-danger: #dc3545;
+    --bs-danger: #b90000;
     --bs-light: #f5f7fb;
     --bs-dark: #212529;
     --bs-primary-rgb: 59, 125, 221;
@@ -42,7 +42,7 @@
     --bs-success-rgb: 28, 187, 140;
     --bs-info-rgb: 23, 162, 184;
     --bs-warning-rgb: 252, 185, 44;
-    --bs-danger-rgb: 220, 53, 69;
+    --bs-danger-rgb: 154, 4, 4;
     --bs-light-rgb: 245, 247, 251;
     --bs-dark-rgb: 33, 37, 41;
     --bs-white-rgb: 255, 255, 255;
@@ -81,7 +81,7 @@
 }
 
 @media(prefers-reduced-motion:no-preference) {
-    :root {
+     :root {
         scroll-behavior: smooth
     }
 }
@@ -13291,6 +13291,31 @@ span.flatpickr-weekday {
     position: sticky;
     top: 0;
     width: 260px
+}
+
+.img-background {
+    background-size: cover;
+    background-image: url('../img/imagen.jpg');
+}
+
+.img-background2 {
+    background: rgba(0, 0, 0, .4);
+}
+
+.transparent-bg {
+    background: rgba(0, 0, 0, .0);
+    color: white;
+}
+
+.inputc {
+    background: rgba(0, 0, 0, .7);
+    color: white;
+    border: 0;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 

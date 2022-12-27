@@ -9,7 +9,7 @@ $resultado_eco = $mysqli->query($query_eco);
 
 ?>
 
-<div class="modal fade" id="IngresarOp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="modal_ingresar_turno" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -25,7 +25,7 @@ $resultado_eco = $mysqli->query($query_eco);
                             <select class="form-control" name="unidad" id="unidad" placeholder="" aria-label="">
                                 <option value="0"> Seleccionar Unidad </option>
                                 <?php while ($row = $resultado_eco->fetch_assoc()) { ?>
-                                    <option value="<?php echo $row['PLACAS']; ?>"><?php echo $row['UNIDAD']; ?></option>
+                                    <option value="<?php echo $row['PLACAS']; ?>"><?php echo '['.$row['PLACAS'].'] '.$row['UNIDAD']; ?></option>
                                 <?php } ?>
                             </select>
                         </div>

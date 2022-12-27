@@ -3,7 +3,7 @@
 ob_start();
 session_start();
 
-require_once(__DIR__ . '/../mysql/conexion.php');
+require_once(__DIR__ . '/../../mysql/conexion.php');
 
 $usuario = $_POST['usuario'];
 $contraseña = $_POST['passwoord'];

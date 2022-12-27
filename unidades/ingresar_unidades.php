@@ -46,7 +46,7 @@ foreach ($unidades as $unidad) {
     if ($sqlResult->num_rows==1) {
     } else {
 
-        $sqlInsert = "INSERT INTO UNIDADES VALUES('$unidad->license_plate','$unidad->name2','DENTRO')";
+        $sqlInsert = "INSERT INTO UNIDADES VALUES('$unidad->license_plate','$unidad->name2','Veracruz','DENTRO')";
         $cn->query($sqlInsert);
     }
 }

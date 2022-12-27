@@ -73,7 +73,6 @@
         });
 
         $("#BtnConfirmarEnviarOpCola").click(function() {
-
             datos = $("#FormEditar").serialize();
             console.log(datos);
             $.ajax({
@@ -84,7 +83,7 @@
                     if (respuesta == 1) {
                         $("#tabla").load('tabla.php');
                         $("#ConfirmarEnvioCola").modal('toggle');
-                        notyf.success('Operador enviado a la cola correctamente.');
+                        notyf.success('Operador enviado a la cola correctamente5d.');
                     } else {
                         notyf.error('Error.');
                     }

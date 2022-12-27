@@ -15,9 +15,9 @@ if (!empty($uid)) {
 } else {
 }
 
-$id_viaje = 29515;
-$id_op = $_POST['id'];
-$nombre_op = $_POST['nombre'];
+$id_op       = $_POST['id'];
+$nombre_op   = $_POST['nombre'];
+$id_viaje    = (int)$_POST['id_viaje_plan'];
 
 if (!empty($uid)) {
 

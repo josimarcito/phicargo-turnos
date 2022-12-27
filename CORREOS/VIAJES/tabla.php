@@ -13,9 +13,10 @@ if (file_exists('plandeviajes.json')) {
 }
 ?>
 
-<table class="table table-striped table-hover table-responsive">
-	<tbody>
+<table class="table table-striped table-hover table-responsive table-sm" id="MyTable2">
+	<thead>
 		<tr>
+			<th>Estado</th>
 			<th>ID</th>
 			<th>Fecha</th>
 			<th>Operador</th>
@@ -23,35 +24,37 @@ if (file_exists('plandeviajes.json')) {
 			<th>Ruta</th>
 			<th>Cliente</th>
 			<th>Sucursal</th>
-			<th>Estados de correos</th>
-
 		</tr>
+	</thead>
+	<tbody>
 		<?php foreach ($users as $user) { ?>
-			<tr onclick="getDatos(
-        '<?= $user->id; ?>',
-        '<?= $user->name; ?>',
-        '<?= $user->vehicle_id[1]; ?>',
-        '<?= $user->partner_id[0]; ?>')">
-				<td> <?= $user->name; ?> </td>
-				<td> <?= $user->date; ?> </td>
-				<td> <?= $user->employee_id[1]; ?> </td>
-				<td> <?= $user->vehicle_id[1]; ?> </td>
-				<td> <?= $user->route_id[1]; ?> </td>
-				<td> <?= $user->partner_id[1]; ?> </td>
-				<td> <?= $user->store_id[1]; ?> </td>
+			<tr onclick="window.location.href='../detalle/index.php?id=<?= $user->id; ?>&referencia=<?= $user->name; ?>&operador=<?= $user->employee_id[1]; ?>&placas=<?= $user->vehicle_id[1]; ?>&ruta=<?= $user->route_id[1]; ?>&id_cliente=<?= $user->partner_id[0]; ?>&cliente=<?= $user->partner_id[1]; ?>'">
 
-				<?php $sqlSelect = "SELECT * FROM VIAJES WHERE ID = '$user->id'";
+				<?php
+				$sqlSelect = "SELECT ESTADO FROM VIAJES WHERE ID = '$user->id'";
 				$resultSet = $cn->query($sqlSelect);
+				$row = $resultSet->fetch_assoc();
 
-				if ($resultSet->num_rows == 1) { ?>
-					<td class="text-center"><span class="badge bg-success"><?php echo 'Activo' ?></span></td>
-				<?php } else { ?>
-					<td class="text-center"><span class="badge bg-danger"><?php echo 'Inactivo' ?></span></td>
-				<?php } ?>
-			</tr>
-		<?php }
-		?>
+
+				if (empty($row['ESTADO'])) { ?>
+					<td class="text-center"><span class="badge bg-success"><?php echo 'Disponible' ?></span></td>
+					<?php } else {
+					if ($row['ESTADO'] == 'Activo') { ?>
+						<td class="text-center"><span class="badge bg-warning"><?php echo 'Activo' ?></span></td>
+					<?php } else if ($row['ESTADO'] == 'Finalizado') { ?>
+						<td class="text-center"><span class="badge bg-primary"><?php echo 'Finalizado' ?></span></td>
+				<?php }
+				} ?>
+				<td> <?php echo $user->name; ?> </td>
+				<td> <?php echo $user->date; ?> </td>
+				<td> <?php echo $user->employee_id[1]; ?> </td>
+				<td> <?php echo $user->vehicle_id[1]; ?> </td>
+				<td> <?php echo $user->route_id[1]; ?> </td>
+				<td> <?php echo $user->partner_id[1]; ?> </td>
+				<td> <?php echo $user->store_id[1]; ?> </td>
+			<?php } ?>
 	</tbody>
+
 </table>
 
 <script>
@@ -71,7 +74,7 @@ if (file_exists('plandeviajes.json')) {
 			success: function(respuesta) {
 				if (respuesta == 1) {
 					$('#Finalizar').show();
-					$('#Iniciar').hide();					
+					$('#Iniciar').hide();
 				} else {
 					$('#Finalizar').hide();
 					$('#Iniciar').show();
@@ -79,4 +82,35 @@ if (file_exists('plandeviajes.json')) {
 			}
 		});
 	}
+</script>
+
+<script>
+	$(document).ready(function() {
+		$('#MyTable2').DataTable({
+			language: {
+				"decimal": "",
+				"emptyTable": "No hay información",
+				"info": "Mostrando _START_ a _END_ de _TOTAL_ Entradas",
+				"infoEmpty": "Mostrando 0 to 0 of 0 Entradas",
+				"infoFiltered": "(Filtrado de _MAX_ total entradas)",
+				"infoPostFix": "",
+				"thousands": ",",
+				"lengthMenu": "Mostrar _MENU_ Entradas",
+				"loadingRecords": "Cargando...",
+				"processing": "Procesando...",
+				"search": "Buscar:",
+				"zeroRecords": "Sin resultados encontrados",
+				"paginate": {
+					"first": " Primero ",
+					"last": " Ultimo ",
+					"next": " Proximo ",
+					"previous": " Anterior  "
+				}
+			},
+			"lengthMenu": [
+				[20, 25, 30, 40, 50, -1],
+				[20, 25, 30, 40, 50, "All"]
+			]
+		})
+	});
 </script>
